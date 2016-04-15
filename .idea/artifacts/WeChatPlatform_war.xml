@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="WeChatPlatform:war">
-    <output-path>$PROJECT_DIR$/out/artifacts/WeChatPlatform_war</output-path>
-    <root id="archive" name="WeChatPlatform_war.war">
-      <element id="artifact" artifact-name="WeChatPlatform:war exploded" />
-    </root>
-  </artifact>
-</component>
