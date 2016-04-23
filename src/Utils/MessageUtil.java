@@ -1,20 +1,16 @@
 package Utils;
 
-import Message.TextMessage;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.core.util.QuickWriter;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
-import com.thoughtworks.xstream.io.xml.PrettyPrintWriter;
-import com.thoughtworks.xstream.io.xml.XppDriver;
-import org.dom4j.Document;
-import org.dom4j.Element;
-import org.dom4j.io.SAXReader;
+import Responses.TextResponse;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.InputStream;
-import java.io.Writer;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -27,44 +23,36 @@ public class MessageUtil {
     public static final String RESP_MESSAAGE_TYPE_TEST = "text";
     //解析xml返回Map
     public static Map<String,String> parseXml(HttpServletRequest request) throws Exception{
-        Map<String,String> map = new HashMap<>();
+        Map<String,String> map = new HashMap<String,String>();
         InputStream inputStream = request.getInputStream();
-        SAXReader reader = new SAXReader();//利用dom4j来解析xml
-        Document document = reader.read(inputStream);
-        Element root = document.getRootElement();
-        List<Element> elementList = root.elements();
-        for(int i=0;i<elementList.size();i++){
-            map.put(elementList.get(i).getName(),elementList.get(i).getText());
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder documentBuilder = factory.newDocumentBuilder();
+        Document document = documentBuilder.parse(inputStream);
+        Element root = document.getDocumentElement();
+        NodeList nodeList = root.getChildNodes();
+        for(int i=0;i<nodeList.getLength();i++){
+            Node node = nodeList.item(i);
+            Element elementNode = (Element)node;
+            map.put(elementNode.getNodeName(),elementNode.getTextContent());
         }
         inputStream.close();
         return map;
     }
-    private static XStream xstream = new XStream(new XppDriver(){
-        @Override
-        public HierarchicalStreamWriter createWriter(Writer out) {
-            return new PrettyPrintWriter(out){
-                boolean cdata = true;
-                @SuppressWarnings("unchecked")
-                public void startNode(String name,Class clazz){
-                    super.startNode(name,clazz);
-                }
-                protected void writerText(QuickWriter writer,String text){
-                    if(cdata){
-                        writer.write("<![CDATA[");
-                        writer.write(text);
-                        writer.write("]]>");
-                    }else{
-                        writer.write(text);
-                    }
-                }
-            };
-        }
-    });
     /*
     * 文本消息转换为xml
     * */
-    public static String messageToXML(TextMessage textMessage){
-        xstream.alias("xml",textMessage.getClass());
-        return xstream.toXML(textMessage);
+    public static String messageToXML(TextResponse message){
+        String  textMessageModel = "<xml>" +
+                "<ToUserName><![CDATA[_toUser_]]></ToUserName>" +
+                "<FromUserName><![CDATA[fromUser]]></FromUserName>" +
+                "<CreateTime>time</CreateTime>" +
+                "<MsgType><![CDATA[text]]></MsgType>" +
+                "<Content><![CDATA[content]]></Content>" +
+                "</xml>";
+        textMessageModel = textMessageModel.replace("_toUser_", message.getToUserName())
+                .replace("fromUser", message.getFromUserName())
+                .replace("content", message.getContent())
+                .replace("time", String.valueOf(message.getCreateTime()));
+        return textMessageModel;
     }
 }

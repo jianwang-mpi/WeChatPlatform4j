@@ -1,7 +1,9 @@
 package Service;
 
 import Message.TextMessage;
+import Responses.TextResponse;
 import Utils.MessageUtil;
+import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
@@ -23,22 +25,21 @@ public class CoreService {
             String msgType = requestMap.get("MsgType");
 
             //回复文本消息
-            TextMessage ResponseTextMessage = new TextMessage();
-            ResponseTextMessage.setToUserName(toUserName);
-            ResponseTextMessage.setFromUserName(fromUserName);
+            TextResponse ResponseTextMessage = new TextResponse();
+            ResponseTextMessage.setToUserName(fromUserName);
+            ResponseTextMessage.setFromUserName(toUserName);
             ResponseTextMessage.setMsgType(MessageUtil.RESP_MESSAAGE_TYPE_TEST);
             ResponseTextMessage.setCreateTime(new Date().getTime());
 
             //文本消息：
             if(msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_TEXT)){
-                responseContent = "TextMessage!";
+                responseContent = "这是文本~";
             }
             ResponseTextMessage.setContent(responseContent);
             responseXML = MessageUtil.messageToXML(ResponseTextMessage);
         }catch (Exception e){
             e.printStackTrace();
         }
-
         return responseXML;
     }
 }

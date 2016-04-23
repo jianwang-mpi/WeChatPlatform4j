@@ -1,9 +1,11 @@
+import Responses.TextResponse;
 import Service.CoreService;
+import Utils.MessageUtil;
 import Utils.SignUtil;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -32,18 +34,17 @@ public class CoreServlet extends HttpServlet{
     * */
 
 
-    public void doPost(HttpServletResponse response,HttpServletRequest request) throws ServletException,IOException{
+    public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException{
         //设置编码模式，防止中文乱码
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
-
-        //接受参数：微信加密签名，时间戳，随机数
-        String signature  = request.getParameter("signature");
-        String timestamp = request.getParameter("timestamp");
-        String nonce = request.getParameter("nonce");
         PrintWriter out = response.getWriter();
-        //请求校验
+
+        //TO DO:请求校验,现在暂时不做
+
+        //获取待返回的xml
         String responseXML = CoreService.processRequest(request);
+        //输出获得的xml
         out.print(responseXML);
         out.close();
     }
