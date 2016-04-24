@@ -23,8 +23,19 @@ import java.util.Map;
  */
 public class MessageUtil {
     //设置信息类型
+    //文本消息
     public static final String REQ_MESSAGE_TYPE_TEXT = "text";
-    public static final String RESP_MESSAAGE_TYPE_TEST = "text";
+    public static final String RESP_MESSAGE_TYPE_TEXT = "text";
+    //图片消息
+    public static final String REQ_MESSAGE_TYPE_IMAGE = "image";
+    public static final String RESP_MESSAGE_TYPE_IMAGE = "image";
+    //语音消息
+    public static final String REQ_MESSAGE_TYPE_VOICE = "voice";
+    public static final String RESP_MESSAGE_TYPE_VOICE = "voice";
+    //视频消息
+    public static final String REQ_MESSAGE_TYPE_VIDEO = "video";
+    public static final String RESP_MESSAGE_TYPE_VIDEO = "video";
+
     //解析xml返回Map
     public static Map<String,String> parseXml(HttpServletRequest request) throws Exception{
         //logger

@@ -1,9 +1,7 @@
 package Service;
 
-import Message.TextMessage;
 import Responses.TextResponse;
 import Utils.MessageUtil;
-import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
@@ -28,12 +26,16 @@ public class CoreService {
             TextResponse ResponseTextMessage = new TextResponse();
             ResponseTextMessage.setToUserName(fromUserName);
             ResponseTextMessage.setFromUserName(toUserName);
-            ResponseTextMessage.setMsgType(MessageUtil.RESP_MESSAAGE_TYPE_TEST);
+            ResponseTextMessage.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_TEXT);
             ResponseTextMessage.setCreateTime(new Date().getTime());
 
             //文本消息：
             if(msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_TEXT)){
                 responseContent = "这是文本~";
+            }else if(msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_IMAGE)){
+                responseContent="这是图片！";
+            }else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_VOICE)){
+                responseContent="This is voice!";
             }
             ResponseTextMessage.setContent(responseContent);
             responseXML = MessageUtil.messageToXML(ResponseTextMessage);
