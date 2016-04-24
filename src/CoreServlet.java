@@ -1,9 +1,7 @@
-import Responses.TextResponse;
+
+import log4j.Log4j;
 import Service.CoreService;
-import Utils.MessageUtil;
 import Utils.SignUtil;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -17,6 +15,7 @@ import java.io.PrintWriter;
  * Created by Alchemist on 2016/4/14.
  */
 public class CoreServlet extends HttpServlet{
+
     public void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException{
         String signature = request.getParameter("signature");
         String timestamp = request.getParameter("timestamp");
@@ -40,10 +39,18 @@ public class CoreServlet extends HttpServlet{
         response.setCharacterEncoding("UTF-8");
         PrintWriter out = response.getWriter();
 
+
+        out.print("");
         //TO DO:请求校验,现在暂时不做
 
         //获取待返回的xml
         String responseXML = CoreService.processRequest(request);
+
+        //logger
+        Log4j log4j = new Log4j();
+        log4j.infolog(responseXML);
+
+
         //输出获得的xml
         out.print(responseXML);
         out.close();

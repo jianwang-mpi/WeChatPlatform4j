@@ -1,6 +1,7 @@
 package Utils;
 
 import Responses.TextResponse;
+import log4j.Log4j;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -9,7 +10,10 @@ import org.w3c.dom.NodeList;
 import javax.servlet.http.HttpServletRequest;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -23,8 +27,27 @@ public class MessageUtil {
     public static final String RESP_MESSAAGE_TYPE_TEST = "text";
     //解析xml返回Map
     public static Map<String,String> parseXml(HttpServletRequest request) throws Exception{
+        //logger
+        Log4j log4j = new Log4j();
+        //我简直要疯了，微信给的调试接口的xml是一整个字符串，但是用户输入进来的是按行分开的，在dom4j不通的情况下，只能先暂时这么搞了，以后再弄清楚
+        //这里的方法是先将inputstream中的每一行转换为字符串拼接起来,然后再转换为inputstream,避免了java自带的dom工具只能处理一整行的xml的情况
+        //new一个hashmap,准备返回相应的xml中的key-value对
         Map<String,String> map = new HashMap<String,String>();
+        //得到InputStream
         InputStream inputStream = request.getInputStream();
+        //这里建立一个BufferedReader 就是要读取inputstream里面的字符串
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+
+        String line=null;
+        //这里用了一个StringBuffer,就是要把得到的每一行字符串拼接起来
+        StringBuffer stringBuffer=new StringBuffer("");
+        while((line=bufferedReader.readLine())!=null){
+            stringBuffer.append(line);
+            log4j.infolog(line);
+        }
+        //得到拼接起来的字符串以后,再将其转换为inputstream
+        inputStream=new ByteArrayInputStream(stringBuffer.toString().getBytes("UTF-8"));
+        //这里调用了java自带的dom处理工具,基本上按照网上说了来.
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = factory.newDocumentBuilder();
         Document document = documentBuilder.parse(inputStream);
