@@ -23,8 +23,30 @@ import java.util.Map;
  */
 public class MessageUtil {
     //设置信息类型
+    //文本消息
     public static final String REQ_MESSAGE_TYPE_TEXT = "text";
-    public static final String RESP_MESSAAGE_TYPE_TEST = "text";
+    public static final String RESP_MESSAGE_TYPE_TEXT = "text";
+    //图片消息
+    public static final String REQ_MESSAGE_TYPE_IMAGE = "image";
+    public static final String RESP_MESSAGE_TYPE_IMAGE = "image";
+    //语音消息
+    public static final String REQ_MESSAGE_TYPE_VOICE = "voice";
+    public static final String RESP_MESSAGE_TYPE_VOICE = "voice";
+    //视频消息
+    public static final String REQ_MESSAGE_TYPE_VIDEO = "video";
+    public static final String RESP_MESSAGE_TYPE_VIDEO = "video";
+    //事件消息
+    public static final String REQ_MESSAGE_TYPE_EVENT = "event";
+    public static final String RESP_MESSAGE_TYPE_EVENT = "event";
+    //事件类型：订阅
+    public static final String EVENT_TYPE_SUBSCRIBE="subscribe";
+    //事件类型：取消订阅
+    public static final String EVENT_TYPE_UNSUBSCRIBE="unsubscribe";
+    //事件类型：上报地理位置
+    public static final String EVENT_TYPE_LOCATION="LOCATION";
+    //事件类型：点击自定义菜单
+    public static final String EVENT_TYPE_CLICK="Click";
+
     //解析xml返回Map
     public static Map<String,String> parseXml(HttpServletRequest request) throws Exception{
         //logger
@@ -43,7 +65,6 @@ public class MessageUtil {
         StringBuffer stringBuffer=new StringBuffer("");
         while((line=bufferedReader.readLine())!=null){
             stringBuffer.append(line);
-            log4j.infolog(line);
         }
         //得到拼接起来的字符串以后,再将其转换为inputstream
         inputStream=new ByteArrayInputStream(stringBuffer.toString().getBytes("UTF-8"));
