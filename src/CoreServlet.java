@@ -43,12 +43,10 @@ public class CoreServlet extends HttpServlet{
         out.print("");
         //TO DO:请求校验,现在暂时不做
 
+
         //获取待返回的xml
         String responseXML = CoreService.processRequest(request);
 
-        //logger
-        Log4j log4j = new Log4j();
-        log4j.infolog(responseXML);
 
 
         //输出获得的xml

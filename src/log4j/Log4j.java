@@ -19,4 +19,12 @@ public class Log4j {
         Logger logger  =  Logger.getLogger(Log4j.class.getName());
         logger.info(message);
     }
+    public void intlog(int message){
+        Logger logger = Logger.getLogger(Log4j.class.getName());
+        logger.info(message);
+    }
+    public void bytelog(byte message){
+        Logger logger = Logger.getLogger(Log4j.class.getName());
+        logger.info(message);
+    }
 }

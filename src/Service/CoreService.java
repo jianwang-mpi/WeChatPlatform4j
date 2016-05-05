@@ -2,6 +2,8 @@ package Service;
 
 import Responses.TextResponse;
 import Utils.MessageUtil;
+import Utils.parseMessageUtil;
+import log4j.Log4j;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
@@ -15,7 +17,7 @@ public class CoreService {
     //处理微信发来的请求
     public static String processRequest(HttpServletRequest request) {
         String responseXML =null;
-        String responseContent = "Unknown Message Type!";
+        String responseContent = "谢谢您的留言，小编会尽快回复：）点击下方菜单栏，可以查看各栏目精选哟";
         try{
             Map<String,String> requestMap = MessageUtil.parseXml(request);
             String fromUserName = requestMap.get("FromUserName");
@@ -29,16 +31,21 @@ public class CoreService {
             ResponseTextMessage.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_TEXT);
             ResponseTextMessage.setCreateTime(new Date().getTime());
 
-            //文本消息：
+            //消息分类处理：
             if(msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_TEXT)){
-                responseContent = "这是文本~";
-            }else if(msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_IMAGE)){
-                responseContent="这是图片！";
-            }else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_VOICE)){
-                responseContent="This is voice!";
+                responseXML = parseMessageUtil.parseTextMessage(requestMap);
+            }else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_EVENT)){          //处理事件信息
+                String eventType=requestMap.get("Event");
+                if(eventType.equals(MessageUtil.EVENT_TYPE_SUBSCRIBE)){
+                    responseContent="欢迎关注北大青年！点击下方菜单栏，可以查看不同栏目的文章精选哟~";
+                    ResponseTextMessage.setContent(responseContent);
+                    responseXML = MessageUtil.messageToXML(ResponseTextMessage);
+                }
+            }else{
+                ResponseTextMessage.setContent(responseContent);
+                responseXML = MessageUtil.messageToXML(ResponseTextMessage);
             }
-            ResponseTextMessage.setContent(responseContent);
-            responseXML = MessageUtil.messageToXML(ResponseTextMessage);
+
         }catch (Exception e){
             e.printStackTrace();
         }
