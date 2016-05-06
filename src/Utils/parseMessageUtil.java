@@ -1,14 +1,13 @@
 package Utils;
 
-import Media.Article;
-import Responses.ArticleResponse;
+import Responses.BaseResponse;
 import Responses.TextResponse;
-import log4j.Log4j;
+import Service.QueryDB;
 
-import java.io.UnsupportedEncodingException;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by Alchemist on 2016/5/5.
@@ -18,33 +17,52 @@ public class parseMessageUtil {
         String responseXML=null;
         String fromUserName = requestMap.get("FromUserName");
         String toUserName = requestMap.get("ToUserName");
-
-
-
-        if(requestMap.get("Content").equals("安全")){
-            Article article = new Article();
-            article.setTitle("调查｜不容忽视的实验室安全");
-            article.setDescription("2015年9月22日晚7:15左右，正在化学与分子工程学院（以下简称“化院”）B区4层实验室做实验的王波（化院2014级研究生）听到手机微信响了一声。他打开手机，看到群里有人说化院A区7层有实验室起火了。");
-            article.setPicURL("http://mmbiz.qpic.cn/mmbiz/l9iadYXd83Z7kTzcqf3edgILmpKf2wB7g93JWTsAvIo4dojgkibWeAaAfBRO1ZMYXezZ6SZGSuq1CwuoqM0RhoBg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1");
-            article.setURL("http://mp.weixin.qq.com/s?__biz=MzA3NzAzMDEyNg==&mid=400078656&idx=1&sn=590b9f2a8d3114538c07e1ba86e0b8f7&scene=20#rd");
-
-            ArticleResponse articleResponse = new ArticleResponse();
-            articleResponse.setToUserName(fromUserName);
-            articleResponse.setFromUserName(toUserName);
-            articleResponse.setCreateTime(new Date().getTime());
-            articleResponse.setArticle(article);
-            responseXML = MessageUtil.articleToXML(articleResponse);
-
+        QueryDB queryDB = new QueryDB();
+        String content = requestMap.get("Content");
+        BaseResponse ResponseMessage=null;
+        if(isQuery(fromUserName)) {
+            if(content.equals("C")){
+                queryDB.stopQueryArticle(fromUserName);
+                TextResponse textResponse = new TextResponse();
+                textResponse.setContent("成功取消查询");
+                textResponse.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_TEXT);
+                ResponseMessage = textResponse;
+            } else if (isNum(content)) {
+                ResponseMessage = queryDB.ArticleQuery(requestMap.get("Content"));
+            } else {
+                ResponseMessage = queryDB.ArticleQueryByTitle(requestMap.get("Content"));
+            }
+        }else if(content.equals("Q")) {
+            queryDB.startQuery(fromUserName);
+            TextResponse textResponse = new TextResponse();
+            textResponse.setContent("开始查询往期文章,回复\"C\"取消查询");
+            textResponse.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_TEXT);
+            ResponseMessage = textResponse;
         }else{
-            //回复文本消息
-            TextResponse ResponseTextMessage = new TextResponse();
-            ResponseTextMessage.setToUserName(fromUserName);
-            ResponseTextMessage.setFromUserName(toUserName);
-            ResponseTextMessage.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_TEXT);
-            ResponseTextMessage.setCreateTime(new Date().getTime());
-            ResponseTextMessage.setContent("谢谢您的留言，小编会尽快回复：）点击下方菜单栏，可以查看各栏目精选哟");
-            responseXML = MessageUtil.messageToXML(ResponseTextMessage);
+            TextResponse text = new TextResponse();
+            text.setContent("谢谢您的留言，小编会尽快回复：）点击下方菜单栏，可以查看各栏目精选哟");
+            text.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_TEXT);
+            ResponseMessage = text;
         }
+        ResponseMessage.setToUserName(fromUserName);
+        ResponseMessage.setFromUserName(toUserName);
+        ResponseMessage.setCreateTime(new Date().getTime());
+        responseXML = MessageUtil.messageToXML(ResponseMessage);
         return responseXML;
+    }
+    private static boolean isNum(String content){
+        String regex = "[1-9][0-9]*";
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(content);
+        return matcher.matches();
+    }
+    private static boolean isQuery(String fromUserName){
+        boolean result=false;
+        QueryDB queryDB = new QueryDB();
+
+        if(queryDB.isInQuery(fromUserName)){
+            result=true;
+        }
+        return result;
     }
 }

@@ -23,5 +23,6 @@
     <orderEntry type="library" name="log4j-1.2.16" level="project" />
     <orderEntry type="library" name="lib1" level="project" />
     <orderEntry type="library" name="dom4j-1.6.1" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.38-bin" level="project" />
   </component>
 </module>

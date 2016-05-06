@@ -6,7 +6,7 @@ import Media.Article;
  * Created by Alchemist on 2016/4/24.
  */
 public class ArticleResponse extends BaseResponse {
-    private Article article;
+    private Article article=null;
 
     public Article getArticle() {
         return article;

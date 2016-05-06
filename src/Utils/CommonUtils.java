@@ -34,7 +34,7 @@ public class CommonUtils {
             sslContext.init(null,trustManagers,new SecureRandom());
             SSLSocketFactory sslSocketFactory  = sslContext.getSocketFactory();
 
-            URL url = new URL(tokenURL);
+            URL url = new URL(requestURL);
             HttpsURLConnection connection = (HttpsURLConnection)url.openConnection();
             connection.setSSLSocketFactory(sslSocketFactory);
 

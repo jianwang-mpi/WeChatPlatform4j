@@ -1,6 +1,7 @@
 package Utils;
 
 import Responses.ArticleResponse;
+import Responses.BaseResponse;
 import Responses.TextResponse;
 
 import org.dom4j.Document;
@@ -33,9 +34,13 @@ public class MessageUtil {
     //视频消息
     public static final String REQ_MESSAGE_TYPE_VIDEO = "video";
     public static final String RESP_MESSAGE_TYPE_VIDEO = "video";
+    //图文消息
+    public static final String REQ_MESSAGE_TYPE_ARTICLE = "news";
+    public static final String RESP_MESSAGE_TYPE_ARTICLE = "news";
     //事件消息
     public static final String REQ_MESSAGE_TYPE_EVENT = "event";
     public static final String RESP_MESSAGE_TYPE_EVENT = "event";
+
     //事件类型：订阅
     public static final String EVENT_TYPE_SUBSCRIBE="subscribe";
     //事件类型：取消订阅
@@ -60,10 +65,20 @@ public class MessageUtil {
         inputStream.close();
         return map;
     }
+
+    public static String messageToXML(BaseResponse message){
+        if(message instanceof TextResponse){
+            return TextResponseToXML((TextResponse)message);
+        }else if(message instanceof ArticleResponse){
+            return ArticleResponseToXML((ArticleResponse)message);
+        }else{
+            return null;
+        }
+    }
     /*
     * 文本消息转换为xml
     * */
-    public static String messageToXML(TextResponse message){
+    public static String TextResponseToXML(TextResponse message){
         String  textMessageModel = "<xml>" +
                 "<ToUserName><![CDATA[_toUser_]]></ToUserName>" +
                 "<FromUserName><![CDATA[fromUser]]></FromUserName>" +
@@ -77,7 +92,7 @@ public class MessageUtil {
                 .replace("time", String.valueOf(message.getCreateTime()));
         return textMessageModel;
     }
-    public static String articleToXML(ArticleResponse message){
+    public static String ArticleResponseToXML(ArticleResponse message){
         String articleMessageModel="<xml>\n" +
                 "<ToUserName><![CDATA[toUser]]></ToUserName>\n" +
                 "<FromUserName><![CDATA[fromUser]]></FromUserName>\n" +
