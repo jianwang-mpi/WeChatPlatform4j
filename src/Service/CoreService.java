@@ -37,7 +37,7 @@ public class CoreService {
             }else if (msgType.equals(MessageUtil.REQ_MESSAGE_TYPE_EVENT)){          //处理事件信息
                 String eventType=requestMap.get("Event");
                 if(eventType.equals(MessageUtil.EVENT_TYPE_SUBSCRIBE)){
-                    responseContent="欢迎关注北大青年！点击下方菜单栏，可以查看不同栏目的文章精选哟~，回复Q查询往期文章";
+                    responseContent="欢迎关注北大青年！点击下方菜单栏，可以查看不同栏目的文章精选哟~，回复q查询往期文章";
                     ResponseTextMessage.setContent(responseContent);
                     responseXML = MessageUtil.messageToXML(ResponseTextMessage);
                 }

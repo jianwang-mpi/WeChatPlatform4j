@@ -91,6 +91,11 @@ public class MenuFactory {
         cloth.setName("布");
         cloth.setSub_button(new Button[]{photo,self,diaolong,seeagain});
 
+        ViewButton contact = new ViewButton();
+        contact.setName("联系我们");
+        contact.setType("view");
+        contact.setUrl("http://pkuyouthplatform.duapp.com/WeChatPlatform_war/index.jsp");
+
         menu = new ButtonMenu();
         menu.setButtons(new Button[]{stone,scissor,cloth});
         return menu;

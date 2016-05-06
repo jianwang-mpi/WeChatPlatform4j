@@ -21,7 +21,7 @@ public class parseMessageUtil {
         String content = requestMap.get("Content");
         BaseResponse ResponseMessage=null;
         if(isQuery(fromUserName)) {
-            if(content.equals("C")){
+            if(content.equals("c")){
                 queryDB.stopQueryArticle(fromUserName);
                 TextResponse textResponse = new TextResponse();
                 textResponse.setContent("成功取消查询");
@@ -32,10 +32,10 @@ public class parseMessageUtil {
             } else {
                 ResponseMessage = queryDB.ArticleQueryByTitle(requestMap.get("Content"));
             }
-        }else if(content.equals("Q")) {
+        }else if(content.equals("q")) {
             queryDB.startQuery(fromUserName);
             TextResponse textResponse = new TextResponse();
-            textResponse.setContent("开始查询往期文章,回复\"C\"取消查询");
+            textResponse.setContent("开始查询往期文章,回复\"c\"取消查询");
             textResponse.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_TEXT);
             ResponseMessage = textResponse;
         }else{

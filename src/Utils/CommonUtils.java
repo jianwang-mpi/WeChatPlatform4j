@@ -69,8 +69,11 @@ public class CommonUtils {
     }
     //获取接口访问凭证
     public static Token getToken(){
+        return getToken(tokenURL);
+    }
+    public static Token getToken(String n_tokenurl){
         Token token=null;
-        JSONObject jsonObject = httpsRequest(tokenURL,"GET",null);
+        JSONObject jsonObject = httpsRequest(n_tokenurl,"GET",null);
         if(jsonObject!=null){
             try{
                 token=new Token();
