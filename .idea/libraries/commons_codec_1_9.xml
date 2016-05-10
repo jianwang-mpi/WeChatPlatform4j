@@ -12,7 +12,6 @@
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jna-4.1.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jna-platform-4.1.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES />
   </library>
 </component>
