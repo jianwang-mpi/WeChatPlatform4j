@@ -1,9 +1,12 @@
 package Utils;
 
+import Media.Article;
 import Responses.ArticleResponse;
 import Responses.BaseResponse;
+import Responses.MultiArticleResponse;
 import Responses.TextResponse;
 
+import log4j.Log4j;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
@@ -71,6 +74,8 @@ public class MessageUtil {
             return TextResponseToXML((TextResponse)message);
         }else if(message instanceof ArticleResponse){
             return ArticleResponseToXML((ArticleResponse)message);
+        }else if(message instanceof MultiArticleResponse){
+            return multiArticleResponseToXML((MultiArticleResponse)message);
         }else{
             return null;
         }
@@ -116,5 +121,38 @@ public class MessageUtil {
                 .replace("picurl", message.getArticle().getPicURL())
                 .replace("_url", message.getArticle().getURL());
         return articleMessageModel;
+    }
+    public static String multiArticleResponseToXML(MultiArticleResponse multiArticleResponse){
+        String multiArticleMessageHead="<xml>\n" +
+                "<ToUserName><![CDATA[toUser]]></ToUserName>\n" +
+                "<FromUserName><![CDATA[fromUser]]></FromUserName>\n" +
+                "<CreateTime>_time_</CreateTime>\n" +
+                "<MsgType><![CDATA[news]]></MsgType>\n" +
+                "<ArticleCount>_count</ArticleCount>\n"+
+                "<Articles>\n";
+        multiArticleMessageHead = multiArticleMessageHead.replace("toUser", multiArticleResponse.getToUserName())
+                .replace("fromUser", multiArticleResponse.getFromUserName())
+                .replace("_time_", String.valueOf(multiArticleResponse.getCreateTime()))
+                .replace("_count",String.valueOf(multiArticleResponse.getArticleList().size()));
+        String multiArticleMessageEnd="</Articles>\n" +
+                "</xml>";
+        List<Article> articleList = multiArticleResponse.getArticleList();
+        String multiArticleMessageBody = "<item>\n" +
+                "<Title><![CDATA[title]]></Title> \n" +
+                "<Description><![CDATA[description]]></Description>\n" +
+                "<PicUrl><![CDATA[picurl]]></PicUrl>\n" +
+                "<Url><![CDATA[_url]]></Url>\n" +
+                "</item>\n";
+        for(int i=0;i<articleList.size();i++){
+            String temp = multiArticleMessageBody.replace("title", articleList.get(i).getTitle())
+                    .replace("description", articleList.get(i).getDescription())
+                    .replace("picurl", articleList.get(i).getPicURL())
+                    .replace("_url", articleList.get(i).getURL());
+            multiArticleMessageHead=multiArticleMessageHead+temp;
+        }
+        String result = multiArticleMessageHead+multiArticleMessageEnd;
+        Log4j log4j = new Log4j();
+        log4j.infolog(result);
+        return result;
     }
 }

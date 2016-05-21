@@ -3,7 +3,6 @@ package Utils;
 import log4j.Log4j;
 import net.sf.json.JSONException;
 import net.sf.json.JSONObject;
-import org.apache.coyote.http2.ConnectionException;
 import TrustManager.MyX509TrustManager;
 
 import javax.net.ssl.HttpsURLConnection;

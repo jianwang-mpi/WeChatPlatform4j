@@ -12,17 +12,19 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/out/production/WeChatPlatform" />
+    <output-test url="file://$APPLICATION_HOME_DIR$/bin" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="log4j-1.2.16" level="project" />
-    <orderEntry type="library" name="lib1" level="project" />
-    <orderEntry type="library" name="dom4j-1.6.1" level="project" />
-    <orderEntry type="library" name="mysql-connector-java-5.1.38-bin" level="project" />
-    <orderEntry type="library" name="javax.mail" level="project" />
+    <orderEntry type="library" exported="" name="log4j-1.2.16" level="project" />
+    <orderEntry type="library" exported="" name="lib1" level="project" />
+    <orderEntry type="library" exported="" name="dom4j-1.6.1" level="project" />
+    <orderEntry type="library" exported="" name="mysql-connector-java-5.1.38-bin" level="project" />
+    <orderEntry type="library" exported="" name="javax.mail" level="project" />
+    <orderEntry type="library" name="annotations-api" level="project" />
   </component>
 </module>

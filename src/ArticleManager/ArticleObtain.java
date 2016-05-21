@@ -8,6 +8,7 @@ import net.sf.json.JSONObject;
  * Created by Alchemist on 2016/5/6.
  */
 public class ArticleObtain {
+    /*
     public static void main(String []args){
         String test=null;
         GetArticleList getArticleList = new GetArticleList();
@@ -24,4 +25,5 @@ public class ArticleObtain {
         JSONObject jsonObject = CommonUtils.httpsRequest(getArticleURL,"POST",test);
         System.out.println(jsonObject.toString());
     }
+    */
 }

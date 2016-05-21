@@ -1,7 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc282f5d-9bba-4627-bc04-0058d041830a" name="Default" comment="" />
+    <list default="true" id="cc282f5d-9bba-4627-bc04-0058d041830a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log4j-1.2.17.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war/WeChatPlatform_war.war" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war/WeChatPlatform_war.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/ArticleObtain.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/ArticleObtain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/GetArticleList.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/GetArticleList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/Button.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/Button.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ButtonMenu.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ButtonMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ClickButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ClickButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ComplexButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ComplexButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ViewButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ViewButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/CoreServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/CoreServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/BaseEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/BaseEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/LocationEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/LocationEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/MenuEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/MenuEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/QRCodeEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/QRCodeEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/SubscribeEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/SubscribeEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/Mail.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/Mail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailAuthenticator.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailAuthenticator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailInformation.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailInformation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailSender.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailSender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Article.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Article.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/BaseMedia.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/BaseMedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Image.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Image.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Music.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Music.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Video.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Video.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Voice.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Voice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuManager.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/BaseMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/BaseMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/ImageMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/ImageMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/TextMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/TextMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/VoiceMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/VoiceMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ArticleResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ArticleResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/BaseResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/BaseResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ImageResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ImageResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MusicResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MusicResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/TextResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/TextResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VideoResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VideoResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VoiceResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VoiceResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/CoreService.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/CoreService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/QueryDB.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/QueryDB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TrustManager/MyX509TrustManager.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TrustManager/MyX509TrustManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/CommonUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/CommonUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MenuUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MenuUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MessageUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MessageUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/SignUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/SignUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/Token.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/Token.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/parseMessageUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/parseMessageUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j/Log4j.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j/Log4j.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/ArticleObtain.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/ArticleObtain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/GetArticleList.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/GetArticleList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/Button.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/Button.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ButtonMenu.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ButtonMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ClickButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ClickButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ComplexButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ComplexButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ViewButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ViewButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/CoreServlet.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/CoreServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/BaseEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/BaseEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/LocationEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/LocationEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/MenuEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/MenuEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/QRCodeEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/QRCodeEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/SubscribeEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/SubscribeEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/Mail.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/Mail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailAuthenticator.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailAuthenticator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailInformation.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailInformation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailSender.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailSender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Article.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Article.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/BaseMedia.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/BaseMedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Image.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Image.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Music.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Music.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Video.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Video.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Voice.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Voice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuFactory.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuManager.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/BaseMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/BaseMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/ImageMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/ImageMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/TextMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/TextMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/VoiceMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/VoiceMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ArticleResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ArticleResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/BaseResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/BaseResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ImageResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ImageResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MusicResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MusicResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/TextResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/TextResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VideoResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VideoResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VoiceResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VoiceResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/CoreService.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/CoreService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/QueryDB.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/QueryDB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/TrustManager/MyX509TrustManager.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/TrustManager/MyX509TrustManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/CommonUtils.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/CommonUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MenuUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MenuUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MessageUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MessageUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/SignUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/SignUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/Token.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/Token.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/parseMessageUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/parseMessageUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j/Log4j.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j/Log4j.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WeChatPlatform_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WeChatPlatform_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WeChatPlatform_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WeChatPlatform_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/dom4j_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_1_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_16.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_38_bin.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_38_bin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeChatPlatform.iml" afterPath="$PROJECT_DIR$/WeChatPlatform.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/css/maven-theme.css" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/css/maven-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/allclasses-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/index.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/overview-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/overview-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/stylesheet.css" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/allclasses-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/index.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/overview-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/overview-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/stylesheet.css" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/ZeroConfSupport.java" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/ZeroConfSupport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/src/ntdll/NTEventLogAppender.def" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/src/ntdll/NTEventLogAppender.def" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/src/ntdll/NTEventLogAppender.rc" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/src/ntdll/NTEventLogAppender.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/categoryfactory1.xml" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/categoryfactory1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/categoryfactory2.xml" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/categoryfactory2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/loggerfactory1.xml" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/loggerfactory1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/PropertyConfiguratorTest.java" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/PropertyConfiguratorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/nt/NTEventLogAppenderTest.java" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/nt/NTEventLogAppenderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/drfa_blockedRollover.log" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/drfa_blockedRollover.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.1" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.10" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.10" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.11" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.12" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.13" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.13" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.14" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.14" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.2" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.3" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.4" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.5" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.6" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.7" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.8" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.9" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.mdc.2" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.mdc.2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/xmlLayout.mdc.1" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/xmlLayout.mdc.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/xmlLayout.mdc.2" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/xmlLayout.mdc.2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.txt" afterPath="$PROJECT_DIR$/list.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j.properties" afterPath="$PROJECT_DIR$/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/test.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/test.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j.properties" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java" afterPath="$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java" afterPath="$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArticleManager/GetArticleList.java" afterPath="$PROJECT_DIR$/src/ArticleManager/GetArticleList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buttons/Button.java" afterPath="$PROJECT_DIR$/src/Buttons/Button.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buttons/ButtonMenu.java" afterPath="$PROJECT_DIR$/src/Buttons/ButtonMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buttons/ClickButton.java" afterPath="$PROJECT_DIR$/src/Buttons/ClickButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buttons/ComplexButton.java" afterPath="$PROJECT_DIR$/src/Buttons/ComplexButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buttons/ViewButton.java" afterPath="$PROJECT_DIR$/src/Buttons/ViewButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CoreServlet.java" afterPath="$PROJECT_DIR$/src/CoreServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateManager/DateManagment.java" afterPath="$PROJECT_DIR$/src/DateManager/DateManagment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Event/BaseEvent.java" afterPath="$PROJECT_DIR$/src/Event/BaseEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Event/LocationEvent.java" afterPath="$PROJECT_DIR$/src/Event/LocationEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Event/MenuEvent.java" afterPath="$PROJECT_DIR$/src/Event/MenuEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Event/QRCodeEvent.java" afterPath="$PROJECT_DIR$/src/Event/QRCodeEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Event/SubscribeEvent.java" afterPath="$PROJECT_DIR$/src/Event/SubscribeEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mail/Mail.java" afterPath="$PROJECT_DIR$/src/Mail/Mail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mail/MailAuthenticator.java" afterPath="$PROJECT_DIR$/src/Mail/MailAuthenticator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mail/MailInformation.java" afterPath="$PROJECT_DIR$/src/Mail/MailInformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mail/MailSender.java" afterPath="$PROJECT_DIR$/src/Mail/MailSender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/Article.java" afterPath="$PROJECT_DIR$/src/Media/Article.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/BaseMedia.java" afterPath="$PROJECT_DIR$/src/Media/BaseMedia.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/Image.java" afterPath="$PROJECT_DIR$/src/Media/Image.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/Music.java" afterPath="$PROJECT_DIR$/src/Media/Music.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/Video.java" afterPath="$PROJECT_DIR$/src/Media/Video.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/Voice.java" afterPath="$PROJECT_DIR$/src/Media/Voice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" afterPath="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MenuManager/MenuManager.java" afterPath="$PROJECT_DIR$/src/MenuManager/MenuManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Message/BaseMessage.java" afterPath="$PROJECT_DIR$/src/Message/BaseMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Message/ImageMessage.java" afterPath="$PROJECT_DIR$/src/Message/ImageMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Message/TextMessage.java" afterPath="$PROJECT_DIR$/src/Message/TextMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Message/VoiceMessage.java" afterPath="$PROJECT_DIR$/src/Message/VoiceMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/ArticleResponse.java" afterPath="$PROJECT_DIR$/src/Responses/ArticleResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/BaseResponse.java" afterPath="$PROJECT_DIR$/src/Responses/BaseResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/ImageResponse.java" afterPath="$PROJECT_DIR$/src/Responses/ImageResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" afterPath="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/MusicResponse.java" afterPath="$PROJECT_DIR$/src/Responses/MusicResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/TextResponse.java" afterPath="$PROJECT_DIR$/src/Responses/TextResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/VideoResponse.java" afterPath="$PROJECT_DIR$/src/Responses/VideoResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/VoiceResponse.java" afterPath="$PROJECT_DIR$/src/Responses/VoiceResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/CoreService.java" afterPath="$PROJECT_DIR$/src/Service/CoreService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" afterPath="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/QueryDB.java" afterPath="$PROJECT_DIR$/src/Service/QueryDB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TrustManager/MyX509TrustManager.java" afterPath="$PROJECT_DIR$/src/TrustManager/MyX509TrustManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/CommonUtils.java" afterPath="$PROJECT_DIR$/src/Utils/CommonUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" afterPath="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/MenuUtil.java" afterPath="$PROJECT_DIR$/src/Utils/MenuUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/MessageUtil.java" afterPath="$PROJECT_DIR$/src/Utils/MessageUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/SignUtil.java" afterPath="$PROJECT_DIR$/src/Utils/SignUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/Token.java" afterPath="$PROJECT_DIR$/src/Utils/Token.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" afterPath="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j/Log4j.java" afterPath="$PROJECT_DIR$/src/log4j/Log4j.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/test.jsp" afterPath="$PROJECT_DIR$/web/test.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/爬取微信平台.py" afterPath="$PROJECT_DIR$/爬取微信平台.py" />
+    </list>
     <ignored path="WeChatPlatform.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,53 +297,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArticleObtain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java">
+      <file leaf-file-name="parseMessageUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utils/parseMessageUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="爬取微信平台.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/爬取微信平台.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetArticleList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArticleManager/GetArticleList.java">
+      <file leaf-file-name="QueryArticle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="207">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utils/MenuUtil.java">
+      <file leaf-file-name="MultiArticleResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Responses/MultiArticleResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
-              <folding />
+            <state relative-caret-position="216">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utils/CommonUtils.java">
+      <file leaf-file-name="MessageUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utils/MessageUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+            <state relative-caret-position="491">
+              <caret line="135" column="81" selection-start-line="135" selection-start-column="81" selection-end-line="135" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -77,20 +346,24 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Log4j/Log4j.java" />
-        <option value="$PROJECT_DIR$/src/log4j.java" />
-        <option value="$PROJECT_DIR$/src/Message/ImageMessage.java" />
-        <option value="$PROJECT_DIR$/src/Message/VoiceMessage.java" />
-        <option value="$PROJECT_DIR$/src/Event/BaseEvent.java" />
-        <option value="$PROJECT_DIR$/src/Event/SubscribeEvent.java" />
-        <option value="$PROJECT_DIR$/src/Event/QRCodeEvent.java" />
-        <option value="$PROJECT_DIR$/src/Event/LocationEvent.java" />
-        <option value="$PROJECT_DIR$/src/Event/MenuEvent.java" />
-        <option value="$PROJECT_DIR$/src/Responses/Image.java" />
-        <option value="$PROJECT_DIR$/src/Responses/ImageResponse.java" />
         <option value="$PROJECT_DIR$/src/Responses/Voice.java" />
         <option value="$PROJECT_DIR$/src/Media/BaseMedia.java" />
         <option value="$PROJECT_DIR$/src/Media/Voice.java" />
@@ -115,9 +388,7 @@
         <option value="$PROJECT_DIR$/src/Buttons/ComplexButton.java" />
         <option value="$PROJECT_DIR$/src/log4j/Log4j.java" />
         <option value="$PROJECT_DIR$/src/Service/ArticleQuery.java" />
-        <option value="$PROJECT_DIR$/src/Utils/MessageUtil.java" />
         <option value="$PROJECT_DIR$/src/Responses/ArticleResponse.java" />
-        <option value="$PROJECT_DIR$/src/Service/QueryDB.java" />
         <option value="$PROJECT_DIR$/src/Mail/MainAuthenticator.java" />
         <option value="$PROJECT_DIR$/src/Mail/Main.java" />
         <option value="$PROJECT_DIR$/src/Mail/Mail.java" />
@@ -125,24 +396,38 @@
         <option value="$PROJECT_DIR$/src/Mail/MailSender.java" />
         <option value="$PROJECT_DIR$/web/test.jsp" />
         <option value="$PROJECT_DIR$/src/Mail/MailInformation.java" />
-        <option value="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" />
         <option value="$PROJECT_DIR$/src/Service/CoreService.java" />
         <option value="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" />
-        <option value="$PROJECT_DIR$/src/Utils/CommonUtils.java" />
         <option value="$PROJECT_DIR$/src/ArticleManager/getArticleList.java" />
+        <option value="$PROJECT_DIR$/爬取微信平台.py" />
+        <option value="$PROJECT_DIR$/src/Utils/CommonUtils.java" />
         <option value="$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java" />
+        <option value="$PROJECT_DIR$/src/ArticleManager/ArticleInsertion.java" />
+        <option value="$PROJECT_DIR$/src/ArticleManager/DateManage.java" />
+        <option value="$PROJECT_DIR$/src/ArticleManager/DateManager.java" />
+        <option value="$PROJECT_DIR$/src/DateManager/DateManagment.java" />
+        <option value="$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java" />
+        <option value="$PROJECT_DIR$/src/Service/DataBaseOperation.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/Utils/MessageUtil.java" />
+        <option value="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" />
+        <option value="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" />
+        <option value="$PROJECT_DIR$/src/Service/QueryDB.java" />
+        <option value="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" />
+        <option value="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="x" value="51" />
+    <option name="y" value="24" />
+    <option name="width" value="1315" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -173,7 +458,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -191,7 +476,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -200,10 +485,146 @@
               <option name="myItemId" value="WeChatPlatform" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataBaseService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatPlatform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Responses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,43 +639,23 @@
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/javax.mail.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$USER_HOME$/apache-tomcat/lib/websocket-api.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alchemist\Desktop\java\WeChatPlatform\src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="ArticleObtain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ArticleManager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ArticleManager.ArticleObtain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="WeChatPlatform" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.parseMessageUtil">
     <configuration default="false" name="MenuManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -277,20 +678,485 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ArticleInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ArticleManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ArticleManager.ArticleInsertion" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WeChatPlatform" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArticleToSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ArticleManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ArticleManager.ArticleToSQL" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WeChatPlatform" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DateManagment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DateManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="DateManager.DateManagment" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WeChatPlatform" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="parseMessageUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Utils.parseMessageUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WeChatPlatform" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WeChatPlatform" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.MenuManager" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArticleInsertion" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ArticleToSQL" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DateManagment" />
+      <item index="4" class="java.lang.String" itemvalue="Application.parseMessageUtil" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.parseMessageUtil" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MenuManager" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArticleToSQL" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DateManagment" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArticleInsertion" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -299,6 +1165,7 @@
       <changelist id="cc282f5d-9bba-4627-bc04-0058d041830a" name="Default" comment="" />
       <created>1460561390065</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1460561390065</updated>
       <workItem from="1460561394851" duration="2890000" />
       <workItem from="1460564634142" duration="607000" />
@@ -322,46 +1189,53 @@
       <workItem from="1462501072093" duration="8562000" />
       <workItem from="1462514549154" duration="12681000" />
       <workItem from="1462542205463" duration="11286000" />
+      <workItem from="1463482819662" duration="565000" />
+      <workItem from="1463488796697" duration="4662000" />
+      <workItem from="1463724103587" duration="15209000" />
+      <workItem from="1463757977577" duration="18000" />
+      <workItem from="1463843952491" duration="2265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110860000" />
+    <option name="totallyTimeSpent" value="133579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="51" y="24" width="1315" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33733132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24562737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988006" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -376,7 +1250,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -384,366 +1260,361 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Message/ImageMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3443163">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Message/VoiceMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3443163">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event/BaseEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43822077">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event/SubscribeEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1878089">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event/LocationEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87644154">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event/MenuEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43822077">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Responses/BaseResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Media/BaseMedia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28171334">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Media/Voice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1878089">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Responses/ImageResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43822077">
+        <state relative-caret-position="0">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Media/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21911038">
+        <state relative-caret-position="0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Event/QRCodeEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40691927">
+        <state relative-caret-position="0">
           <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Responses/VoiceResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3443163">
+        <state relative-caret-position="0">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Media/Video.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25041187">
+        <state relative-caret-position="0">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Responses/VideoResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50082374">
+        <state relative-caret-position="0">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Media/Music.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46952224">
+        <state relative-caret-position="0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Responses/MusicResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40691927">
+        <state relative-caret-position="0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Media/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81383854">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Buttons/Button.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28171334">
+        <state relative-caret-position="0">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Buttons/ViewButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31301484">
+        <state relative-caret-position="0">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogBrokerMonitor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5182073">
+        <state relative-caret-position="0">
           <caret line="1479" column="85" selection-start-line="1479" selection-start-column="85" selection-end-line="1479" selection-end-column="85" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_71/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0727272">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_71/jre/lib/rt.jar!/sun/security/jca/GetInstance.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5138889">
-          <caret line="158" column="72" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_71/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_71/jre/lib/rt.jar!/sun/security/jca/GetInstance.class" />
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.2.3-jdk15.jar!/net/sf/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75277776">
+        <state relative-caret-position="0">
           <caret line="1897" column="0" selection-start-line="1897" selection-start-column="0" selection-end-line="1897" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Buttons/ClickButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42713568">
+        <state relative-caret-position="0">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Buttons/ButtonMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5251256">
+        <state relative-caret-position="0">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Buttons/ComplexButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/log4j/Log4j.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Responses/ArticleResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3443163">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/MessageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40527183">
-          <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoreServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1252059">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TrustManager/MyX509TrustManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3756178">
+        <state relative-caret-position="0">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/SignUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuManager/MenuManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04522613">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/QueryDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mail/Mail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.071429">
+        <state relative-caret-position="0">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mail/MailAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.047738694">
+        <state relative-caret-position="0">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mail/MailInformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.107143">
+        <state relative-caret-position="0">
           <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mail/MailSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="102" column="74" selection-start-line="102" selection-start-column="74" selection-end-line="102" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/parseMessageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/CoreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuManager/MenuFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="99" column="56" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/CommonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleManager/GetArticleList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/MenuUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/爬取微信平台.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeChatPlatform.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleManager/GetArticleList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Media/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleManager/DateManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/DateManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/DateManager/DateManagment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/SignUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CoreServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuManager/MenuManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/CoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Responses/ArticleResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/MessageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="135" column="81" selection-start-line="135" selection-start-column="81" selection-end-line="135" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/parseMessageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/QueryDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <marker date="1463845412120" expanded="true" signature="1055:1138" ph="select title... ArticleMessage" />
+            <marker date="1463845412120" expanded="true" signature="2832:2920" ph="select title... ArticleMessage" />
+            <marker date="1463845412120" expanded="true" signature="4482:4542" ph="select stat query" />
+            <marker date="1463845412120" expanded="true" signature="5544:5608" ph="SELECT userN... query" />
+            <marker date="1463845412120" expanded="true" signature="5841:5960" ph="INSERT INTO query... " />
+            <marker date="1463845412120" expanded="true" signature="6190:6335" ph="UPDATE query... " />
+            <marker date="1463845412120" expanded="true" signature="6975:7120" ph="UPDATE query... " />
+            <marker date="1463845412120" expanded="true" signature="7735:7920" ph="INSERT INTO ArticleMessage... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/DataBaseOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Responses/MultiArticleResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -790,7 +1661,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -807,7 +1678,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -815,7 +1685,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>javax.mail</last-edited>
+          <last-edited>annotations-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

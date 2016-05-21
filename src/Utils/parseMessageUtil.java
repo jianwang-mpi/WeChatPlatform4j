@@ -1,8 +1,11 @@
 package Utils;
 
 import Responses.BaseResponse;
+import Responses.MultiArticleResponse;
 import Responses.TextResponse;
+import Service.DataBaseService.QueryArticle;
 import Service.QueryDB;
+import log4j.Log4j;
 
 import java.util.Date;
 import java.util.Map;
@@ -21,6 +24,8 @@ public class parseMessageUtil {
         String content = requestMap.get("Content");
         BaseResponse ResponseMessage=null;
         if(isQuery(fromUserName)) {
+            Log4j log4j = new Log4j();
+            log4j.infolog(content);
             if(content.equals("c")){
                 queryDB.stopQueryArticle(fromUserName);
                 TextResponse textResponse = new TextResponse();
@@ -29,7 +34,11 @@ public class parseMessageUtil {
                 ResponseMessage = textResponse;
             } else if (isNum(content)) {
                 ResponseMessage = queryDB.ArticleQuery(requestMap.get("Content"));
-            } else {
+            } else if (isDate(content)){
+                ResponseMessage = QueryArticle.queryArticleDate(content);
+                log4j.infolog(String.valueOf(ResponseMessage instanceof MultiArticleResponse));
+
+            }else {
                 ResponseMessage = queryDB.ArticleQueryByTitle(requestMap.get("Content"));
             }
         }else if(content.equals("q")) {
@@ -50,6 +59,16 @@ public class parseMessageUtil {
         responseXML = MessageUtil.messageToXML(ResponseMessage);
         return responseXML;
     }
+    private static boolean isMatch(String content,String regex){
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(content);
+        return matcher.matches();
+    }
+    private static boolean isDate(String content){
+        String regex1="20[0-9][0-9]-[0-1][0-9]-[0-3][0-9]";
+        String regex2="20[0-9][0-9]/[0-1][0-9]/[0-3][0-9]";
+        return isMatch(content,regex1)||isMatch(content,regex2);
+    }
     private static boolean isNum(String content){
         String regex = "[1-9][0-9]*";
         Pattern pattern = Pattern.compile(regex);
@@ -64,5 +83,8 @@ public class parseMessageUtil {
             result=true;
         }
         return result;
+    }
+    public static void main(String args[]){
+        System.out.println(isDate("2016-05-19"));
     }
 }

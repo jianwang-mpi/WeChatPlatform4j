@@ -1,5 +1,7 @@
 package Utils;
 
+import log4j.Log4j;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,12 +23,14 @@ public class DataBaseOperation {
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
         List<Map<String,Object>> resultList = new ArrayList<Map<String, Object>>();
-        String url = "jdbc:mysql://"+MySQLServer+":"+MySQLServerPort+"/" + DBName;
+        String url = "jdbc:mysql://sqld.duapp.com:4050/gLqNBKGAHFWicVlogCWf";
         try{
             Class.forName(driverName);
             conn = DriverManager.getConnection(url,DBUser,DBPasswd);
             preparedStatement = conn.prepareStatement(sql);
-            resultSet = preparedStatement.executeQuery();
+            preparedStatement.execute();
+            resultSet = preparedStatement.getResultSet();
+
             ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
             while(resultSet.next()){
                 Map<String,Object> column = new HashMap<String, Object>();

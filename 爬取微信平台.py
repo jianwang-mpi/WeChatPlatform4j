@@ -1,14 +1,15 @@
-import requests
-import re,os
 import json
-from bs4 import BeautifulSoup as bs
+import re
 import sys
+
+import requests
+
 reload(sys)
 sys.setdefaultencoding('utf-8')
 s = requests.session()
-s.headers.update({'cookie':'noticeLoginFlag=1; o_cookie=365062829; pgv_pvid=2663851350; ptui_loginuin=365062829@qq.com; ptcz=5581a3b6116890fdd50d054057d97536ebc22c07c220af7586485b3417c82999; pt2gguin=o0365062829; pgv_pvi=7061868544; pgv_si=s1374621696; data_bizuin=3094030808; data_ticket=BDD8BHrOetPFGw3sKSbYZfKuIzegzaj75Lj/2a95Znc6+ZTNAjO+aHWjzg25HY7S; noticeLoginFlag=0; slave_user=gh_f502635b2763; slave_sid=b1dyYTFzNlppTmduZkMxY1pIMTZJSmZtbWVDRENsQ1pUNFZpZE5Ka3FMQlBvRVJSdXZQTEFvMGZSVnVCc215c3pHV3JaOHJ0dnY2WVN1bWk2aUYzZmFkSWJBZmJMVGVCSlJGYVNNWElkeDdLOGJFbkViV25QUmpxSmFtVHQxRjlHMnZXeUlyamNDclhWbWlK; bizuin=3077030126'})
+s.headers.update({'cookie':'noticeLoginFlag=1; pgv_pvi=5042961408; RK=StnaLVncMu; p_o2_uin=1923359914; noticeLoginFlag=1; pgv_pvid=4088850756; o_cookie=1923359914; ptui_loginuin=1923359914; ptcz=1caf2808419a9f6349dc53506b9fc2bbdba516eb22639ac4dade0e9f58823540; pt2gguin=o1923359914; pgv_si=s6137033728; data_bizuin=3094030808; data_ticket=RTQVhyUE/zy99Rl+/Hjczayas1fIDPkKTG+42em3WelQS5NQojF7ICnvTcI7uxzY; slave_user=gh_f502635b2763; slave_sid=ajMzTlQ5SEJnR1FMQTdEQ1NrbWRIbUZWc2hxR0FabEFKX0xoYkdtSEc3X1lwT3VwbFFzbmpMc1V1aVhSTFFCaFRpWHNtcElsdXZIZUJhSVl2Vk9RTnY1dzJWWjlvcDRJQkozdHU2SUdicTEwYmlEdW1DZ1VOVTNtVHloSVNRc1J2ZW9TNk94b1lvbzdVaTVT; bizuin=3094030808'})
 
-url = 'https://mp.weixin.qq.com/cgi-bin/masssendpage?t=mass/list&action=history&begin={}&count=10&token=1877814760&lang=zh_CN'
+url = 'https://mp.weixin.qq.com/cgi-bin/masssendpage?t=mass/list&action=history&begin={0}&count=10&token=1002898648&lang=zh_CN'
 j = {'msg_item':[]}
 for i in range(76):
     url2 = url.format(str(10*i))
@@ -19,4 +20,4 @@ for i in range(76):
     print len(j['msg_item'])
 with open('list.txt', 'wb+') as f:
     for item in j['msg_item']:
-        f.write(json.dumps(item, ensure_ascii=False) + '\n\n')
+        f.write(json.dumps(item, ensure_ascii=False) + '\n')
