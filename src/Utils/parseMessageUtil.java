@@ -78,7 +78,6 @@ public class parseMessageUtil {
     private static boolean isQuery(String fromUserName){
         boolean result=false;
         QueryDB queryDB = new QueryDB();
-
         if(queryDB.isInQuery(fromUserName)){
             result=true;
         }

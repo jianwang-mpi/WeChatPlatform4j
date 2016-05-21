@@ -3,278 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cc282f5d-9bba-4627-bc04-0058d041830a" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/log4j-1.2.17.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war/WeChatPlatform_war.war" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war/WeChatPlatform_war.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/ArticleObtain.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/ArticleObtain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/GetArticleList.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/GetArticleList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/Button.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/Button.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ButtonMenu.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ButtonMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ClickButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ClickButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ComplexButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ComplexButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ViewButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ViewButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/CoreServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/CoreServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/BaseEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/BaseEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/LocationEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/LocationEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/MenuEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/MenuEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/QRCodeEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/QRCodeEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/SubscribeEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/SubscribeEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/Mail.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/Mail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailAuthenticator.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailAuthenticator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailInformation.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailSender.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Article.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Article.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/BaseMedia.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/BaseMedia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Image.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Image.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Music.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Music.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Video.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Video.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Voice.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Voice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuManager.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/BaseMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/BaseMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/ImageMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/ImageMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/TextMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/TextMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/VoiceMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/VoiceMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ArticleResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ArticleResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/BaseResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/BaseResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ImageResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ImageResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MusicResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MusicResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/TextResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/TextResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VideoResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VideoResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VoiceResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VoiceResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/CoreService.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/CoreService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/QueryDB.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/QueryDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TrustManager/MyX509TrustManager.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TrustManager/MyX509TrustManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/CommonUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/CommonUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MenuUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MenuUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MessageUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MessageUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/SignUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/SignUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/Token.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/Token.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/parseMessageUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/parseMessageUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j/Log4j.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j/Log4j.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/ArticleObtain.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/ArticleObtain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/GetArticleList.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/GetArticleList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/Button.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/Button.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ButtonMenu.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ButtonMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ClickButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ClickButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ComplexButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ComplexButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ViewButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ViewButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/CoreServlet.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/CoreServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/BaseEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/BaseEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/LocationEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/LocationEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/MenuEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/MenuEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/QRCodeEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/QRCodeEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/SubscribeEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/SubscribeEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/Mail.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/Mail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailAuthenticator.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailAuthenticator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailInformation.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailSender.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Article.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Article.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/BaseMedia.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/BaseMedia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Image.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Image.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Music.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Music.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Video.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Video.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Voice.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Voice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuFactory.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuManager.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/BaseMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/BaseMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/ImageMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/ImageMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/TextMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/TextMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/VoiceMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/VoiceMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ArticleResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ArticleResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/BaseResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/BaseResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ImageResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ImageResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MusicResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MusicResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/TextResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/TextResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VideoResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VideoResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VoiceResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VoiceResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/CoreService.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/CoreService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/QueryDB.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/QueryDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/TrustManager/MyX509TrustManager.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/TrustManager/MyX509TrustManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/CommonUtils.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/CommonUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MenuUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MenuUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MessageUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MessageUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/SignUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/SignUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/Token.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/Token.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/parseMessageUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/parseMessageUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j/Log4j.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j/Log4j.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WeChatPlatform_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WeChatPlatform_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WeChatPlatform_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WeChatPlatform_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/dom4j_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_1_6_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_38_bin.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_38_bin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeChatPlatform.iml" afterPath="$PROJECT_DIR$/WeChatPlatform.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/css/maven-theme.css" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/css/maven-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/allclasses-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/index.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/customLogger/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/defaultInit/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/helpers/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/net/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/nt/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/or/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/pattern/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/rewrite/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/spi/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/util/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/varia/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/org/apache/log4j/xml/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/overview-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/overview-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/overview-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/overview-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/stylesheet.css" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref-test/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/allclasses-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/index.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/chainsaw/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/config/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/helpers/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jdbc/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/jmx/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/util/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/categoryexplorer/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/configure/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/net/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/nt/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/jms/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/or/sax/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/pattern/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/rewrite/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/spi/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/varia/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/package-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/package-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/xml/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/overview-frame.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/overview-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/overview-summary.html" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/overview-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/stylesheet.css" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/ZeroConfSupport.java" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/src/main/java/org/apache/log4j/net/ZeroConfSupport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/src/ntdll/NTEventLogAppender.def" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/src/ntdll/NTEventLogAppender.def" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/src/ntdll/NTEventLogAppender.rc" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/src/ntdll/NTEventLogAppender.rc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/categoryfactory1.xml" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/categoryfactory1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/categoryfactory2.xml" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/categoryfactory2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/loggerfactory1.xml" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/input/xml/loggerfactory1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/PropertyConfiguratorTest.java" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/PropertyConfiguratorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/nt/NTEventLogAppenderTest.java" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/src/java/org/apache/log4j/nt/NTEventLogAppenderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/drfa_blockedRollover.log" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/drfa_blockedRollover.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.1" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.10" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.11" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.12" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.13" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.14" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.2" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.3" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.4" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.5" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.6" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.7" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.8" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.9" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.mdc.2" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/pattern/enhancedPatternLayout.mdc.2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/xmlLayout.mdc.1" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/xmlLayout.mdc.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/xmlLayout.mdc.2" afterPath="$PROJECT_DIR$/apache-log4j-1.2.17/tests/witness/xmlLayout.mdc.2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.txt" afterPath="$PROJECT_DIR$/list.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j.properties" afterPath="$PROJECT_DIR$/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/test.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/test.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j.properties" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java" afterPath="$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java" afterPath="$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArticleManager/GetArticleList.java" afterPath="$PROJECT_DIR$/src/ArticleManager/GetArticleList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buttons/Button.java" afterPath="$PROJECT_DIR$/src/Buttons/Button.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buttons/ButtonMenu.java" afterPath="$PROJECT_DIR$/src/Buttons/ButtonMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buttons/ClickButton.java" afterPath="$PROJECT_DIR$/src/Buttons/ClickButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buttons/ComplexButton.java" afterPath="$PROJECT_DIR$/src/Buttons/ComplexButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Buttons/ViewButton.java" afterPath="$PROJECT_DIR$/src/Buttons/ViewButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CoreServlet.java" afterPath="$PROJECT_DIR$/src/CoreServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateManager/DateManagment.java" afterPath="$PROJECT_DIR$/src/DateManager/DateManagment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Event/BaseEvent.java" afterPath="$PROJECT_DIR$/src/Event/BaseEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Event/LocationEvent.java" afterPath="$PROJECT_DIR$/src/Event/LocationEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Event/MenuEvent.java" afterPath="$PROJECT_DIR$/src/Event/MenuEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Event/QRCodeEvent.java" afterPath="$PROJECT_DIR$/src/Event/QRCodeEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Event/SubscribeEvent.java" afterPath="$PROJECT_DIR$/src/Event/SubscribeEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mail/Mail.java" afterPath="$PROJECT_DIR$/src/Mail/Mail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mail/MailAuthenticator.java" afterPath="$PROJECT_DIR$/src/Mail/MailAuthenticator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mail/MailInformation.java" afterPath="$PROJECT_DIR$/src/Mail/MailInformation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mail/MailSender.java" afterPath="$PROJECT_DIR$/src/Mail/MailSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/Article.java" afterPath="$PROJECT_DIR$/src/Media/Article.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/BaseMedia.java" afterPath="$PROJECT_DIR$/src/Media/BaseMedia.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/Image.java" afterPath="$PROJECT_DIR$/src/Media/Image.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/Music.java" afterPath="$PROJECT_DIR$/src/Media/Music.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/Video.java" afterPath="$PROJECT_DIR$/src/Media/Video.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Media/Voice.java" afterPath="$PROJECT_DIR$/src/Media/Voice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" afterPath="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MenuManager/MenuManager.java" afterPath="$PROJECT_DIR$/src/MenuManager/MenuManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Message/BaseMessage.java" afterPath="$PROJECT_DIR$/src/Message/BaseMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Message/ImageMessage.java" afterPath="$PROJECT_DIR$/src/Message/ImageMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Message/TextMessage.java" afterPath="$PROJECT_DIR$/src/Message/TextMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Message/VoiceMessage.java" afterPath="$PROJECT_DIR$/src/Message/VoiceMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/ArticleResponse.java" afterPath="$PROJECT_DIR$/src/Responses/ArticleResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/BaseResponse.java" afterPath="$PROJECT_DIR$/src/Responses/BaseResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/ImageResponse.java" afterPath="$PROJECT_DIR$/src/Responses/ImageResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" afterPath="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/MusicResponse.java" afterPath="$PROJECT_DIR$/src/Responses/MusicResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/TextResponse.java" afterPath="$PROJECT_DIR$/src/Responses/TextResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/VideoResponse.java" afterPath="$PROJECT_DIR$/src/Responses/VideoResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/VoiceResponse.java" afterPath="$PROJECT_DIR$/src/Responses/VoiceResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/CoreService.java" afterPath="$PROJECT_DIR$/src/Service/CoreService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" afterPath="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/QueryDB.java" afterPath="$PROJECT_DIR$/src/Service/QueryDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TrustManager/MyX509TrustManager.java" afterPath="$PROJECT_DIR$/src/TrustManager/MyX509TrustManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/CommonUtils.java" afterPath="$PROJECT_DIR$/src/Utils/CommonUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" afterPath="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/MenuUtil.java" afterPath="$PROJECT_DIR$/src/Utils/MenuUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/MessageUtil.java" afterPath="$PROJECT_DIR$/src/Utils/MessageUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/SignUtil.java" afterPath="$PROJECT_DIR$/src/Utils/SignUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/Token.java" afterPath="$PROJECT_DIR$/src/Utils/Token.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" afterPath="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j/Log4j.java" afterPath="$PROJECT_DIR$/src/log4j/Log4j.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/test.jsp" afterPath="$PROJECT_DIR$/web/test.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/爬取微信平台.py" afterPath="$PROJECT_DIR$/爬取微信平台.py" />
     </list>
     <ignored path="WeChatPlatform.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -300,8 +30,8 @@
       <file leaf-file-name="parseMessageUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Utils/parseMessageUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+            <state relative-caret-position="-162">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -309,13 +39,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryArticle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java">
+      <file leaf-file-name="QueryDB.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Service/QueryDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            <state relative-caret-position="270">
+              <caret line="112" column="80" selection-start-line="112" selection-start-column="80" selection-end-line="112" selection-end-column="80" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1463848539908" expanded="true" signature="1055:1138" ph="select title... ArticleMessage" />
+                <marker date="1463848539908" expanded="true" signature="2832:2920" ph="select title... ArticleMessage" />
+                <marker date="1463848539908" expanded="true" signature="4482:4542" ph="select stat query" />
+                <marker date="1463848539908" expanded="true" signature="5073:5115" ph="UPDATE query... " />
+                <marker date="1463848539908" expanded="true" signature="5073:5132" ph="UPDATE query... " />
+                <marker date="1463848539908" expanded="true" signature="6198:6262" ph="SELECT userN... query" />
+                <marker date="1463848539908" expanded="true" signature="6495:6614" ph="INSERT INTO query... " />
+                <marker date="1463848539908" expanded="true" signature="6844:6989" ph="UPDATE query... " />
+                <marker date="1463848539908" expanded="true" signature="7629:7774" ph="UPDATE query... " />
+                <marker date="1463848539908" expanded="true" signature="8389:8574" ph="INSERT INTO ArticleMessage... " />
               </folding>
             </state>
           </provider>
@@ -411,10 +150,10 @@
         <option value="$PROJECT_DIR$/src/log4j.properties" />
         <option value="$PROJECT_DIR$/src/Utils/MessageUtil.java" />
         <option value="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" />
-        <option value="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" />
-        <option value="$PROJECT_DIR$/src/Service/QueryDB.java" />
         <option value="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" />
         <option value="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" />
+        <option value="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" />
+        <option value="$PROJECT_DIR$/src/Service/QueryDB.java" />
       </list>
     </option>
   </component>
@@ -1193,12 +932,12 @@
       <workItem from="1463488796697" duration="4662000" />
       <workItem from="1463724103587" duration="15209000" />
       <workItem from="1463757977577" duration="18000" />
-      <workItem from="1463843952491" duration="2265000" />
+      <workItem from="1463843952491" duration="4022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133579000" />
+    <option name="totallyTimeSpent" value="135336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="24" width="1315" height="744" extended-state="6" />
@@ -1561,33 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/parseMessageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/QueryDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding>
-            <marker date="1463845412120" expanded="true" signature="1055:1138" ph="select title... ArticleMessage" />
-            <marker date="1463845412120" expanded="true" signature="2832:2920" ph="select title... ArticleMessage" />
-            <marker date="1463845412120" expanded="true" signature="4482:4542" ph="select stat query" />
-            <marker date="1463845412120" expanded="true" signature="5544:5608" ph="SELECT userN... query" />
-            <marker date="1463845412120" expanded="true" signature="5841:5960" ph="INSERT INTO query... " />
-            <marker date="1463845412120" expanded="true" signature="6190:6335" ph="UPDATE query... " />
-            <marker date="1463845412120" expanded="true" signature="6975:7120" ph="UPDATE query... " />
-            <marker date="1463845412120" expanded="true" signature="7735:7920" ph="INSERT INTO ArticleMessage... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/DataBaseOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1611,10 +1323,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="396">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/parseMessageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/QueryDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="112" column="80" selection-start-line="112" selection-start-column="80" selection-end-line="112" selection-end-column="80" />
+          <folding>
+            <marker date="1463848539908" expanded="true" signature="1055:1138" ph="select title... ArticleMessage" />
+            <marker date="1463848539908" expanded="true" signature="2832:2920" ph="select title... ArticleMessage" />
+            <marker date="1463848539908" expanded="true" signature="4482:4542" ph="select stat query" />
+            <marker date="1463848539908" expanded="true" signature="5073:5115" ph="UPDATE query... " />
+            <marker date="1463848539908" expanded="true" signature="5073:5132" ph="UPDATE query... " />
+            <marker date="1463848539908" expanded="true" signature="6198:6262" ph="SELECT userN... query" />
+            <marker date="1463848539908" expanded="true" signature="6495:6614" ph="INSERT INTO query... " />
+            <marker date="1463848539908" expanded="true" signature="6844:6989" ph="UPDATE query... " />
+            <marker date="1463848539908" expanded="true" signature="7629:7774" ph="UPDATE query... " />
+            <marker date="1463848539908" expanded="true" signature="8389:8574" ph="INSERT INTO ArticleMessage... " />
           </folding>
         </state>
       </provider>

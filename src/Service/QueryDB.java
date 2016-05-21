@@ -109,6 +109,21 @@ public class QueryDB {
             resultSet = preparedStatement.getResultSet();
             while (resultSet.next()){
                 int isquery=resultSet.getInt("stat");
+                /*
+                long lastTime = Long.parseLong(resultSet.getString("lastTime"));
+                Date now = new Date();
+                long nowTime = now.getTime();
+
+                if((nowTime-lastTime)/1000/60>5){
+                    String updateStat = "UPDATE query SET stat = 0 WHERE userName='"+fromUserName+"'";
+                    preparedStatement = conn.prepareStatement(updateStat);
+                    preparedStatement.execute();
+                    resultSet.close();
+                    preparedStatement.close();
+                    conn.close();
+                    return false;
+                }
+                */
                 if(isquery > 0) {
                     resultSet.close();
                     preparedStatement.close();
