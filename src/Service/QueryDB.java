@@ -103,17 +103,15 @@ public class QueryDB {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(dbURL, user, password);
-            String sql = "select stat from query where userName = \'"+fromUserName+"\'";
+            String sql = "select * from query where userName = \'"+fromUserName+"\'";
             preparedStatement = conn.prepareStatement(sql);
             preparedStatement.execute();
             resultSet = preparedStatement.getResultSet();
             while (resultSet.next()){
                 int isquery=resultSet.getInt("stat");
-                /*
                 long lastTime = Long.parseLong(resultSet.getString("lastTime"));
                 Date now = new Date();
                 long nowTime = now.getTime();
-
                 if((nowTime-lastTime)/1000/60>5){
                     String updateStat = "UPDATE query SET stat = 0 WHERE userName='"+fromUserName+"'";
                     preparedStatement = conn.prepareStatement(updateStat);
@@ -123,8 +121,10 @@ public class QueryDB {
                     conn.close();
                     return false;
                 }
-                */
                 if(isquery > 0) {
+                    String updateStat = "UPDATE query SET lastTime='"+String.valueOf(new Date().getTime())+"' WHERE userName='"+fromUserName+"';";
+                    preparedStatement = conn.prepareStatement(updateStat);
+                    preparedStatement.execute();
                     resultSet.close();
                     preparedStatement.close();
                     conn.close();
@@ -157,7 +157,7 @@ public class QueryDB {
                 preparedStatement.execute();
                 resultSet = preparedStatement.getResultSet();
             }else{
-                String update="UPDATE query SET userName=\'"+fromUserName+"\',lastTime=\'"+String.valueOf(new Date().getTime())+"\',stat=1 WHERE userName = \'"+fromUserName+"\'";
+                String update="UPDATE query SET userName=\'"+fromUserName+"\',lastTime=\'"+String.valueOf(new Date().getTime())+"\',stat=1 WHERE userName = \'"+fromUserName+"\';";
                 preparedStatement = conn.prepareStatement(update);
                 preparedStatement.execute();
             }

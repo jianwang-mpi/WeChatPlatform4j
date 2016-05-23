@@ -132,8 +132,15 @@ public class MessageUtil {
                 "<Articles>\n";
         multiArticleMessageHead = multiArticleMessageHead.replace("toUser", multiArticleResponse.getToUserName())
                 .replace("fromUser", multiArticleResponse.getFromUserName())
-                .replace("_time_", String.valueOf(multiArticleResponse.getCreateTime()))
-                .replace("_count",String.valueOf(multiArticleResponse.getArticleList().size()));
+                .replace("_time_", String.valueOf(multiArticleResponse.getCreateTime()));
+        if(multiArticleResponse.getArticleList().size()<=10){
+            multiArticleMessageHead = multiArticleMessageHead
+                    .replace("_count",String.valueOf(multiArticleResponse.getArticleList().size()));
+        }else{
+            multiArticleMessageHead = multiArticleMessageHead
+                    .replace("_count",String.valueOf(10));
+        }
+
         String multiArticleMessageEnd="</Articles>\n" +
                 "</xml>";
         List<Article> articleList = multiArticleResponse.getArticleList();
@@ -144,6 +151,7 @@ public class MessageUtil {
                 "<Url><![CDATA[_url]]></Url>\n" +
                 "</item>\n";
         for(int i=0;i<articleList.size();i++){
+            if(i==10)break;
             String temp = multiArticleMessageBody.replace("title", articleList.get(i).getTitle())
                     .replace("description", articleList.get(i).getDescription())
                     .replace("picurl", articleList.get(i).getPicURL())

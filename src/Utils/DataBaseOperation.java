@@ -1,6 +1,5 @@
 package Utils;
 
-import log4j.Log4j;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -40,15 +39,11 @@ public class DataBaseOperation {
                 if(column.size()!=0)
                     resultList.add(column);
             }
+            preparedStatement.close();
+            conn.close();
+            resultSet.close();
         }catch (Exception e){
             e.printStackTrace();
-        }finally {
-            try{
-                preparedStatement.close();
-                conn.close();
-            }catch (Exception e){
-                e.printStackTrace();
-            }
         }
         return resultList;
     }
