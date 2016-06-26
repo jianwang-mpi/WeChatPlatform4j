@@ -26,5 +26,6 @@
     <orderEntry type="library" exported="" name="mysql-connector-java-5.1.38-bin" level="project" />
     <orderEntry type="library" exported="" name="javax.mail" level="project" />
     <orderEntry type="library" name="annotations-api" level="project" />
+    <orderEntry type="library" name="json-lib-2.2.3-jdk15" level="project" />
   </component>
 </module>

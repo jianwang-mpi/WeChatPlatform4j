@@ -35,16 +35,13 @@ public class parseMessageUtil {
                 textResponse.setContent("成功取消查询");
                 textResponse.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_TEXT);
                 ResponseMessage = textResponse;
-            } else if (isNum(content)) {
-                ResponseMessage = queryDB.ArticleQuery(content);
-            } else if (isDate(content)){
+            }else if (isDate(content)){
                 log4j.infolog("Content:"+content);
                 String date = FormattingDate.FormattingDate(content);
                 log4j.infolog("Date:"+date);
                 ResponseMessage = QueryArticle.queryArticleDate(date);
-
             }else {
-                ResponseMessage = QueryArticle.queryArticleTitle(requestMap.get("Content"));
+                ResponseMessage = QueryArticle.queryArticleText(requestMap.get("Content"));
             }
         }else if(content.equals("q")) {
             queryDB.startQuery(fromUserName);

@@ -17,9 +17,9 @@ import java.util.Date;
  */
 public class QueryDB {
 
-    String dbURL = "jdbc:mysql://sqld.duapp.com:4050/gLqNBKGAHFWicVlogCWf";
-    String user="7b3c4fc0ad1e432c83befab9ba1a0ee0";
-    String password = "3b05da2171d54f108cc97fa35618a21e";
+    String dbURL = "jdbc:mysql://localhost:3306/wechat";
+    String user="root";
+    String password = "wangjian";
 
     public BaseResponse ArticleQuery(String articleNo) throws Exception{
         Connection conn=null;

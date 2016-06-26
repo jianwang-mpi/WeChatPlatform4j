@@ -2,25 +2,156 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc282f5d-9bba-4627-bc04-0058d041830a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DateManager/FormattingDate.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log4j-1.2.17.zip" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_2_3_jdk15.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleAddition/AddArticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleAddition/ArticleIfExist.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleAddition/QueryUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleAddition/UserInformation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleAddition/test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleManager/FullTextManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleManager/test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Service/DataBaseService/InsertArticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestPackages/ConcurrentTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/checkvalid.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/insert.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/loginResponse.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/logout.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/main.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/list.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/ArticleObtain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/GetArticleList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/test.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/ArticleObtain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/GetArticleList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/test.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war/WeChatPlatform_war.war" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war/WeChatPlatform_war.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/ArticleToSQL.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/ArticleToSQL.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/Button.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/Button.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ButtonMenu.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ButtonMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ClickButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ClickButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ComplexButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ComplexButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ViewButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ViewButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/CoreServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/CoreServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/DateManager/DateManagment.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/DateManager/DateManagment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/DateManager/FormattingDate.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/DateManager/FormattingDate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/BaseEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/BaseEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/LocationEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/LocationEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/MenuEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/MenuEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/QRCodeEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/QRCodeEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/SubscribeEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/SubscribeEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/Mail.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/Mail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailAuthenticator.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailAuthenticator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailInformation.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailInformation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailSender.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailSender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Article.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Article.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/BaseMedia.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/BaseMedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Image.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Image.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Music.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Music.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Video.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Video.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Voice.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Voice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuManager.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/BaseMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/BaseMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/ImageMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/ImageMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/TextMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/TextMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/VoiceMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/VoiceMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ArticleResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ArticleResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/BaseResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/BaseResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ImageResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ImageResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MultiArticleResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MultiArticleResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MusicResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MusicResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/TextResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/TextResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VideoResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VideoResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VoiceResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VoiceResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/CoreService.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/CoreService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/DataBaseService/QueryArticle.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/DataBaseService/QueryArticle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/QueryDB.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/QueryDB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TrustManager/MyX509TrustManager.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TrustManager/MyX509TrustManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/CommonUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/CommonUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/DataBaseOperation.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/DataBaseOperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MenuUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MenuUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MessageUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MessageUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/SignUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/SignUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/Token.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/Token.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/parseMessageUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/parseMessageUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j/Log4j.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j/Log4j.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/ArticleToSQL.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/ArticleToSQL.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/Button.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/Button.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ButtonMenu.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ButtonMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ClickButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ClickButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ComplexButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ComplexButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ViewButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ViewButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/CoreServlet.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/CoreServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/DateManager/DateManagment.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/DateManager/DateManagment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/DateManager/FormattingDate.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/DateManager/FormattingDate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/BaseEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/BaseEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/LocationEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/LocationEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/MenuEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/MenuEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/QRCodeEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/QRCodeEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/SubscribeEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/SubscribeEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/Mail.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/Mail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailAuthenticator.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailAuthenticator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailInformation.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailInformation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailSender.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailSender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Article.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Article.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/BaseMedia.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/BaseMedia.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Image.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Image.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Music.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Music.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Video.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Video.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Voice.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Voice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuFactory.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuManager.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/BaseMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/BaseMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/ImageMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/ImageMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/TextMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/TextMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/VoiceMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/VoiceMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ArticleResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ArticleResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/BaseResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/BaseResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ImageResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ImageResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MultiArticleResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MultiArticleResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MusicResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MusicResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/TextResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/TextResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VideoResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VideoResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VoiceResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VoiceResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/CoreService.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/CoreService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/DataBaseService/QueryArticle.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/DataBaseService/QueryArticle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/QueryDB.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/QueryDB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/TrustManager/MyX509TrustManager.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/TrustManager/MyX509TrustManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/CommonUtils.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/CommonUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/DataBaseOperation.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/DataBaseOperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MenuUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MenuUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MessageUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MessageUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/SignUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/SignUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/Token.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/Token.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/parseMessageUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/parseMessageUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j/Log4j.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j/Log4j.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/annotations_api.xml" afterPath="$PROJECT_DIR$/.idea/libraries/annotations_api.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeChatPlatform.iml" afterPath="$PROJECT_DIR$/WeChatPlatform.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.txt" afterPath="$PROJECT_DIR$/list.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j.properties" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java" afterPath="$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateManager/DateManagment.java" afterPath="$PROJECT_DIR$/src/DateManager/DateManagment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateManager/FormattingDate.java" afterPath="$PROJECT_DIR$/src/DateManager/FormattingDate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" afterPath="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" afterPath="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" afterPath="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/QueryDB.java" afterPath="$PROJECT_DIR$/src/Service/QueryDB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/CommonUtils.java" afterPath="$PROJECT_DIR$/src/Utils/CommonUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" afterPath="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/MessageUtil.java" afterPath="$PROJECT_DIR$/src/Utils/MessageUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" afterPath="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j/Log4j.java" afterPath="$PROJECT_DIR$/src/log4j/Log4j.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java" afterPath="$PROJECT_DIR$/src/ArticleAddition/ArticleObtain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ArticleManager/GetArticleList.java" afterPath="$PROJECT_DIR$/src/ArticleAddition/GetArticleList.java" />
     </list>
     <ignored path="WeChatPlatform.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,61 +174,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="parseMessageUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Utils/parseMessageUtil.java">
+      <file leaf-file-name="ConcurrentTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestPackages/ConcurrentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="274">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryArticle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormattingDate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DateManager/FormattingDate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Service/QueryDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2106">
-              <caret line="127" column="38" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
-              <folding>
-                <marker date="1463902951038" expanded="true" signature="1055:1138" ph="select title... ArticleMessage" />
-                <marker date="1463902951038" expanded="true" signature="2832:2920" ph="select title... ArticleMessage" />
-                <marker date="1463902951038" expanded="true" signature="4482:4539" ph="select stat query" />
-                <marker date="1463902951038" expanded="true" signature="5050:5092" ph="UPDATE query... " />
-                <marker date="1463902951038" expanded="true" signature="5050:5109" ph="UPDATE query... " />
-                <marker date="1463902951038" expanded="true" signature="5483:5510" ph="UPDATE query... " />
-                <marker date="1463902951038" expanded="true" signature="5483:5549" ph="UPDATE query... " />
-                <marker date="1463902951038" expanded="true" signature="5483:5585" ph="UPDATE query... " />
-                <marker date="1463902951038" expanded="true" signature="6427:6491" ph="SELECT userN... query" />
-                <marker date="1463902951038" expanded="true" signature="6724:6843" ph="INSERT INTO query... " />
-                <marker date="1463902951038" expanded="true" signature="7073:7218" ph="UPDATE query... " />
-                <marker date="1463902951038" expanded="true" signature="7859:8004" ph="UPDATE query... " />
-                <marker date="1463902951038" expanded="true" signature="8619:8804" ph="INSERT INTO ArticleMessage... " />
               </folding>
             </state>
           </provider>
@@ -108,6 +191,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -123,43 +207,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Media/BaseMedia.java" />
-        <option value="$PROJECT_DIR$/src/Media/Voice.java" />
-        <option value="$PROJECT_DIR$/src/Media/Image.java" />
-        <option value="$PROJECT_DIR$/src/Responses/VoiceResponse.java" />
-        <option value="$PROJECT_DIR$/src/Media/Video.java" />
-        <option value="$PROJECT_DIR$/src/Responses/VideoResponse.java" />
-        <option value="$PROJECT_DIR$/src/Media/Music.java" />
-        <option value="$PROJECT_DIR$/src/Responses/MusicResponse.java" />
-        <option value="$PROJECT_DIR$/src/Media/Article.java" />
-        <option value="$PROJECT_DIR$/src/TrustManager/MyX509TrustManager.java" />
-        <option value="$PROJECT_DIR$/src/TokenTest/HttpClientUtil.java" />
-        <option value="$PROJECT_DIR$/src/TokenTest/TokenTest.java" />
-        <option value="$PROJECT_DIR$/src/CoreServlet.java" />
-        <option value="$PROJECT_DIR$/src/Buttons/Button.java" />
-        <option value="$PROJECT_DIR$/src/Buttons/ClickButton.java" />
-        <option value="$PROJECT_DIR$/src/Buttons/ViewButton.java" />
-        <option value="$PROJECT_DIR$/src/Utils/Token.java" />
         <option value="$PROJECT_DIR$/src/Buttons/ButtonMenu.java" />
         <option value="$PROJECT_DIR$/src/Utils/MenuUtil.java" />
         <option value="$PROJECT_DIR$/src/MenuManager/MenuManager.java" />
         <option value="$PROJECT_DIR$/src/Buttons/ComplexButton.java" />
-        <option value="$PROJECT_DIR$/src/log4j/Log4j.java" />
         <option value="$PROJECT_DIR$/src/Service/ArticleQuery.java" />
         <option value="$PROJECT_DIR$/src/Responses/ArticleResponse.java" />
         <option value="$PROJECT_DIR$/src/Mail/MainAuthenticator.java" />
         <option value="$PROJECT_DIR$/src/Mail/Main.java" />
         <option value="$PROJECT_DIR$/src/Mail/Mail.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/Mail/MailSender.java" />
         <option value="$PROJECT_DIR$/web/test.jsp" />
         <option value="$PROJECT_DIR$/src/Mail/MailInformation.java" />
         <option value="$PROJECT_DIR$/src/Service/CoreService.java" />
-        <option value="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" />
         <option value="$PROJECT_DIR$/src/ArticleManager/getArticleList.java" />
         <option value="$PROJECT_DIR$/爬取微信平台.py" />
-        <option value="$PROJECT_DIR$/src/Utils/CommonUtils.java" />
-        <option value="$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java" />
         <option value="$PROJECT_DIR$/src/ArticleManager/ArticleInsertion.java" />
         <option value="$PROJECT_DIR$/src/ArticleManager/DateManage.java" />
         <option value="$PROJECT_DIR$/src/ArticleManager/DateManager.java" />
@@ -168,12 +230,34 @@
         <option value="$PROJECT_DIR$/src/Service/DataBaseOperation.java" />
         <option value="$PROJECT_DIR$/src/log4j.properties" />
         <option value="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" />
-        <option value="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" />
         <option value="$PROJECT_DIR$/src/Utils/MessageUtil.java" />
         <option value="$PROJECT_DIR$/src/DateManager/FormattingDate.java" />
-        <option value="$PROJECT_DIR$/src/Service/QueryDB.java" />
-        <option value="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" />
+        <option value="$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java" />
+        <option value="$PROJECT_DIR$/list.sql" />
+        <option value="$PROJECT_DIR$/src/ArticleManager/FullTextManager.java" />
+        <option value="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" />
+        <option value="$PROJECT_DIR$/src/ArticleManager/test.java" />
         <option value="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" />
+        <option value="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" />
+        <option value="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" />
+        <option value="$PROJECT_DIR$/src/ArticleAddition/UserInformation.java" />
+        <option value="$PROJECT_DIR$/src/ArticleAddition/QueryUser.java" />
+        <option value="$PROJECT_DIR$/web/loginResponse.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/search.jsp" />
+        <option value="$PROJECT_DIR$/web/main.jsp" />
+        <option value="$PROJECT_DIR$/src/ArticleAddition/ArticleIfExist.java" />
+        <option value="$PROJECT_DIR$/src/ArticleAddition/GetArticleList.java" />
+        <option value="$PROJECT_DIR$/src/Service/QueryDB.java" />
+        <option value="$PROJECT_DIR$/src/log4j/Log4j.java" />
+        <option value="$PROJECT_DIR$/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/ArticleAddition/test.java" />
+        <option value="$PROJECT_DIR$/src/ArticleAddition/ArticleObtain.java" />
+        <option value="$PROJECT_DIR$/web/insert.jsp" />
+        <option value="$PROJECT_DIR$/src/ArticleAddition/AddArticle.java" />
+        <option value="$PROJECT_DIR$/src/Service/DataBaseService/InsertArticle.java" />
+        <option value="$PROJECT_DIR$/src/Utils/CommonUtils.java" />
+        <option value="$PROJECT_DIR$/src/TestPackages/ConcurrentTest.java" />
       </list>
     </option>
   </component>
@@ -183,11 +267,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="51" />
-    <option name="y" value="-4" />
-    <option name="width" value="1315" />
-    <option name="height" value="772" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -236,8 +327,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,10 +334,6 @@
               <option name="myItemId" value="WeChatPlatform" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -256,7 +341,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="WeChatPlatform4j" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,7 +351,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="WeChatPlatform4j" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -280,25 +365,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatPlatform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="WeChatPlatform4j" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -312,7 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="WeChatPlatform4j" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -320,70 +387,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatPlatform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="TestPackages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatPlatform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataBaseService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatPlatform" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DateManager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="ConcurrentTest.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,51 +413,33 @@
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/apache-tomcat/lib/websocket-api.jar!/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.2.3-jdk15.jar!/" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\WeChatPlatform4j\src" />
       <recent name="C:\Users\Alchemist\Desktop\java\WeChatPlatform\src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\WeChatPlatform4j\web" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.parseMessageUtil">
-    <configuration default="false" name="MenuManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ConcurrentTest">
+    <configuration default="false" name="ArticleObtain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="MenuManager.*" />
+          <option name="PATTERN" value="ArticleAddition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="MenuManager.MenuManager" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="WeChatPlatform" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArticleInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ArticleManager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ArticleManager.ArticleInsertion" />
+      <option name="MAIN_CLASS_NAME" value="ArticleAddition.ArticleObtain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -455,14 +452,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ArticleToSQL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FullTextManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ArticleManager.*" />
+          <option name="PATTERN" value="ArticleAddition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ArticleManager.ArticleToSQL" />
+      <option name="MAIN_CLASS_NAME" value="ArticleManager.FullTextManager" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -475,14 +472,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="DateManagment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="DateManager.*" />
+          <option name="PATTERN" value="ArticleAddition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="DateManager.DateManagment" />
+      <option name="MAIN_CLASS_NAME" value="ArticleManager.test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -495,14 +492,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="parseMessageUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Utils.*" />
+          <option name="PATTERN" value="ArticleAddition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Utils.parseMessageUtil" />
+      <option name="MAIN_CLASS_NAME" value="ArticleAddition.test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WeChatPlatform" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConcurrentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="TestPackages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="TestPackages.ConcurrentTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -895,19 +912,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MenuManager" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ArticleInsertion" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ArticleToSQL" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DateManagment" />
-      <item index="4" class="java.lang.String" itemvalue="Application.parseMessageUtil" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ArticleObtain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FullTextManager" />
+      <item index="2" class="java.lang.String" itemvalue="Application.test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.test (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ConcurrentTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.parseMessageUtil" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MenuManager" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ArticleToSQL" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DateManagment" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ArticleInsertion" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ConcurrentTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ArticleObtain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.test (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FullTextManager" />
       </list>
     </recent_temporary>
   </component>
@@ -953,48 +970,62 @@
       <workItem from="1463843952491" duration="8447000" />
       <workItem from="1463895611930" duration="8564000" />
       <workItem from="1463979478751" duration="138000" />
+      <workItem from="1465045207504" duration="1024000" />
+      <workItem from="1465048116102" duration="1255000" />
+      <workItem from="1465290404544" duration="13000" />
+      <workItem from="1465898324083" duration="7000" />
+      <workItem from="1465900383539" duration="2706000" />
+      <workItem from="1465903569067" duration="627000" />
+      <workItem from="1465928839016" duration="3373000" />
+      <workItem from="1465971670514" duration="14237000" />
+      <workItem from="1466781884961" duration="502000" />
+      <workItem from="1466835427366" duration="15108000" />
+      <workItem from="1466877150011" duration="623000" />
+      <workItem from="1466919533784" duration="7277000" />
+      <workItem from="1466941399627" duration="2793000" />
+      <workItem from="1466957134706" duration="7063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148463000" />
+    <option name="totallyTimeSpent" value="205071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="-4" width="1315" height="772" extended-state="6" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24562737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3369803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988006" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988006" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33733132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822758" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1019,215 +1050,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Media/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Event/QRCodeEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Responses/VoiceResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Media/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Responses/VideoResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Media/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Responses/MusicResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buttons/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buttons/ViewButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apache-log4j-1.2.17/site/xref/org/apache/log4j/lf5/viewer/LogBrokerMonitor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1479" column="85" selection-start-line="1479" selection-start-column="85" selection-end-line="1479" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_71/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_71/jre/lib/rt.jar!/sun/security/jca/GetInstance.class" />
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.2.3-jdk15.jar!/net/sf/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1897" column="0" selection-start-line="1897" selection-start-column="0" selection-end-line="1897" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buttons/ClickButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buttons/ButtonMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Buttons/ComplexButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j/Log4j.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TrustManager/MyX509TrustManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mail/Mail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mail/MailAuthenticator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mail/MailInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mail/MailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="102" column="74" selection-start-line="102" selection-start-column="74" selection-end-line="102" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuManager/MenuFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="99" column="56" selection-start-line="99" selection-start-column="56" selection-end-line="99" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/MenuUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/爬取微信平台.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WeChatPlatform.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/CommonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleManager/GetArticleList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Media/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1240,18 +1066,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,20 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MenuManager/MenuManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/CoreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Responses/ArticleResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1297,84 +1101,320 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/DateManager/FormattingDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+        <state relative-caret-position="425">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="0" column="162" selection-start-line="0" selection-start-column="162" selection-end-line="0" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/DataBaseRemoteOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AuthorManager/AuthorManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AuthorManager/getAuthorList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Responses/MultiArticleResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="300">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleManager/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/MessageUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="139" column="61" selection-start-line="139" selection-start-column="61" selection-end-line="139" selection-end-column="61" />
+        <state relative-caret-position="2675">
+          <caret line="124" column="36" selection-start-line="124" selection-start-column="36" selection-end-line="124" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/MenuManager/MenuFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleAddition/UserInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleAddition/QueryUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/DataBaseOperation.java">
+    <entry file="file://$PROJECT_DIR$/web/loginResponse.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="725">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateManager/FormattingDate.java">
+    <entry file="file://$PROJECT_DIR$/web/logout.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/checkvalid.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/QueryDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="127" column="38" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
-          <folding>
-            <marker date="1463902951038" expanded="true" signature="1055:1138" ph="select title... ArticleMessage" />
-            <marker date="1463902951038" expanded="true" signature="2832:2920" ph="select title... ArticleMessage" />
-            <marker date="1463902951038" expanded="true" signature="4482:4539" ph="select stat query" />
-            <marker date="1463902951038" expanded="true" signature="5050:5092" ph="UPDATE query... " />
-            <marker date="1463902951038" expanded="true" signature="5050:5109" ph="UPDATE query... " />
-            <marker date="1463902951038" expanded="true" signature="5483:5510" ph="UPDATE query... " />
-            <marker date="1463902951038" expanded="true" signature="5483:5549" ph="UPDATE query... " />
-            <marker date="1463902951038" expanded="true" signature="5483:5585" ph="UPDATE query... " />
-            <marker date="1463902951038" expanded="true" signature="6427:6491" ph="SELECT userN... query" />
-            <marker date="1463902951038" expanded="true" signature="6724:6843" ph="INSERT INTO query... " />
-            <marker date="1463902951038" expanded="true" signature="7073:7218" ph="UPDATE query... " />
-            <marker date="1463902951038" expanded="true" signature="7859:8004" ph="UPDATE query... " />
-            <marker date="1463902951038" expanded="true" signature="8619:8804" ph="INSERT INTO ArticleMessage... " />
-          </folding>
+        <state relative-caret-position="131">
+          <caret line="189" column="8" selection-start-line="189" selection-start-column="8" selection-end-line="203" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java">
+    <entry file="file://$PROJECT_DIR$/src/Service/CoreService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="249">
+          <caret line="41" column="80" selection-start-line="41" selection-start-column="80" selection-end-line="41" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/parseMessageUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        <state relative-caret-position="524">
+          <caret line="43" column="91" selection-start-line="43" selection-start-column="91" selection-end-line="43" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleAddition/GetArticleList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Media/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Media/BaseMedia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleManager/FullTextManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleAddition/ArticleIfExist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TrustManager/MyX509TrustManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j/Log4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleAddition/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/DataBaseOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#817#838#0" expanded="false" />
+            <element signature="e#1349#1365#0" expanded="false" />
+            <element signature="e#2665#2666#0" expanded="false" />
+            <element signature="e#2694#2695#0" expanded="false" />
+            <element signature="e#2739#2740#0" expanded="false" />
+            <element signature="e#2768#2769#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/insert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleAddition/ArticleObtain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/DataBaseService/InsertArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleAddition/AddArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="23" column="163" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="163" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/MenuUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MenuManager/MenuManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestPackages/ConcurrentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1423,7 +1463,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1440,6 +1480,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1447,7 +1488,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>annotations-api</last-edited>
+          <last-edited>json-lib-2.2.3-jdk15</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

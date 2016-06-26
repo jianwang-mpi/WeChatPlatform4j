@@ -27,4 +27,8 @@ public class Log4j {
         Logger logger = Logger.getLogger(Log4j.class.getName());
         logger.info(message);
     }
+    public void debuglog(String debug){
+        Logger logger  =  Logger.getLogger(Log4j.class.getName());
+        logger.debug(debug);
+    }
 }

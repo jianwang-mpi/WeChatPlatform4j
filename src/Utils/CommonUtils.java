@@ -22,7 +22,7 @@ import java.security.SecureRandom;
  */
 public class CommonUtils {
 
-    public final static String tokenURL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx520c0e769bf47b3f&secret=01471f066a11046572933ae63a655904";
+    public final static String tokenURL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx35cc5c069f5a4b26&secret=6b46aa501df92713726aeed5f85ff70b";
     //发送https请求
     public static JSONObject httpsRequest(String requestURL,String requestMethod,String outputString){
         JSONObject jsonObject = null;
@@ -58,10 +58,16 @@ public class CommonUtils {
             bufferedReader.close();
             inputStream.close();
             connection.disconnect();
+            log4j.debuglog("The json string is:"+stringBuffer.toString());
             jsonObject=JSONObject.fromObject(stringBuffer.toString());
         }catch (ConnectException e){
-            log4j.infolog("连接超时:"+e.toString());
+            log4j.infolog("Overtime:"+e.toString());
+            e.printStackTrace();
         }catch(Exception e){
+            log4j.debuglog("Strange Exception");
+            for( StackTraceElement stackTraceElement : e.getStackTrace()){
+                log4j.debuglog(stackTraceElement.toString()+" line: "+stackTraceElement.getLineNumber());
+            }
             e.printStackTrace();
         }
         return jsonObject;
@@ -73,6 +79,7 @@ public class CommonUtils {
     public static Token getToken(String n_tokenurl){
         Token token=null;
         JSONObject jsonObject = httpsRequest(n_tokenurl,"GET",null);
+        Log4j log4j = new Log4j();
         if(jsonObject!=null){
             try{
                 token=new Token();
@@ -80,8 +87,7 @@ public class CommonUtils {
                 token.setExpiresIn(jsonObject.getInt("expires_in"));
             }catch (JSONException e){
                 token  = null;
-                Log4j log4j = new Log4j();
-                log4j.infolog("获取token失败");
+                log4j.debuglog("获取token失败");
             }
         }
         return token;
