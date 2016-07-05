@@ -6,15 +6,19 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Date;
 
 /**
  * Created by Alchemist on 2016/6/27.
  */
 public class ConcurrentTest {
     public static void main(String args[]){
-        for(int i=0;i<100;i++) {
+        for(int i=0;i<600;i++) {
+
             Task task = new Task();
-            task.run();
+
+            task.start();
+
         }
     }
 }
@@ -31,8 +35,11 @@ class Task extends Thread{
                 " <MsgId>1234567890123456</MsgId>\n" +
                 " </xml>";
         String url = "http://123.206.86.195/WeChatPlatform_war/coreServlet";
+        Date date1 = new Date();
         String out = sendPost(url,message);
-        System.out.println(out);
+        Date date2 = new Date();
+        System.out.println(date2.getTime()-date1.getTime());
+        System.out.println("ms   "+out);
     }
     public static String sendPost(String url, String param) {
         PrintWriter out = null;

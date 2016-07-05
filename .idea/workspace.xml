@@ -2,156 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc282f5d-9bba-4627-bc04-0058d041830a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_2_3_jdk15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleAddition/AddArticle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleAddition/ArticleIfExist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleAddition/QueryUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleAddition/UserInformation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleAddition/test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleManager/FullTextManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArticleManager/test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Service/DataBaseService/InsertArticle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TestPackages/ConcurrentTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/checkvalid.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/insert.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/loginResponse.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/logout.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/main.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/ArticleObtain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/GetArticleList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/test.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/ArticleObtain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/GetArticleList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/test.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war/WeChatPlatform_war.war" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war/WeChatPlatform_war.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/ArticleToSQL.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/ArticleManager/ArticleToSQL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/Button.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/Button.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ButtonMenu.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ButtonMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ClickButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ClickButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ComplexButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ComplexButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ViewButton.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Buttons/ViewButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/CoreServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/CoreServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/DateManager/DateManagment.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/DateManager/DateManagment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/DateManager/FormattingDate.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/DateManager/FormattingDate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/BaseEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/BaseEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/LocationEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/LocationEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/MenuEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/MenuEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/QRCodeEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/QRCodeEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/SubscribeEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Event/SubscribeEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/Mail.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/Mail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailAuthenticator.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailAuthenticator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailInformation.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailSender.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Mail/MailSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Article.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Article.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/BaseMedia.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/BaseMedia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Image.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Image.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Music.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Music.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Video.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Video.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Voice.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Media/Voice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuManager.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/MenuManager/MenuManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/BaseMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/BaseMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/ImageMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/ImageMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/TextMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/TextMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/VoiceMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Message/VoiceMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ArticleResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ArticleResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/BaseResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/BaseResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ImageResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/ImageResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MultiArticleResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MultiArticleResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MusicResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/MusicResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/TextResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/TextResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VideoResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VideoResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VoiceResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Responses/VoiceResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/CoreService.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/CoreService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/DataBaseService/QueryArticle.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/DataBaseService/QueryArticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/QueryDB.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Service/QueryDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TrustManager/MyX509TrustManager.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TrustManager/MyX509TrustManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/CommonUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/CommonUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/DataBaseOperation.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/DataBaseOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MenuUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MenuUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MessageUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/MessageUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/SignUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/SignUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/Token.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/Token.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/parseMessageUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/Utils/parseMessageUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j/Log4j.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j/Log4j.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/ArticleToSQL.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/ArticleManager/ArticleToSQL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/Button.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/Button.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ButtonMenu.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ButtonMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ClickButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ClickButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ComplexButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ComplexButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ViewButton.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Buttons/ViewButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/CoreServlet.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/CoreServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/DateManager/DateManagment.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/DateManager/DateManagment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/DateManager/FormattingDate.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/DateManager/FormattingDate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/BaseEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/BaseEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/LocationEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/LocationEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/MenuEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/MenuEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/QRCodeEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/QRCodeEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/SubscribeEvent.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Event/SubscribeEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/Mail.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/Mail.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailAuthenticator.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailAuthenticator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailInformation.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailInformation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailSender.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Mail/MailSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Article.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Article.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/BaseMedia.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/BaseMedia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Image.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Image.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Music.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Music.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Video.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Video.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Voice.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Media/Voice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuFactory.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuManager.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/MenuManager/MenuManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/BaseMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/BaseMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/ImageMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/ImageMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/TextMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/TextMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/VoiceMessage.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Message/VoiceMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ArticleResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ArticleResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/BaseResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/BaseResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ImageResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/ImageResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MultiArticleResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MultiArticleResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MusicResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/MusicResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/TextResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/TextResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VideoResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VideoResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VoiceResponse.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Responses/VoiceResponse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/CoreService.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/CoreService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/DataBaseService/QueryArticle.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/DataBaseService/QueryArticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/QueryDB.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Service/QueryDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/TrustManager/MyX509TrustManager.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/TrustManager/MyX509TrustManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/CommonUtils.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/CommonUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/DataBaseOperation.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/DataBaseOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MenuUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MenuUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MessageUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/MessageUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/SignUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/SignUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/Token.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/Token.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/parseMessageUtil.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/Utils/parseMessageUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j/Log4j.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j/Log4j.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/annotations_api.xml" afterPath="$PROJECT_DIR$/.idea/libraries/annotations_api.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TestPackages/ConcurrentTest.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TestPackages/ConcurrentTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TestPackages/Task.class" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/TestPackages/Task.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/TestPackages/ConcurrentTest.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/TestPackages/ConcurrentTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/TestPackages/Task.class" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/TestPackages/Task.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeChatPlatform.iml" afterPath="$PROJECT_DIR$/WeChatPlatform.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.txt" afterPath="$PROJECT_DIR$/list.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/WEB-INF/classes/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WeChatPlatform_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j.properties" afterPath="$PROJECT_DIR$/out/production/WeChatPlatform/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java" afterPath="$PROJECT_DIR$/src/ArticleManager/ArticleToSQL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateManager/DateManagment.java" afterPath="$PROJECT_DIR$/src/DateManager/DateManagment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateManager/FormattingDate.java" afterPath="$PROJECT_DIR$/src/DateManager/FormattingDate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" afterPath="$PROJECT_DIR$/src/MenuManager/MenuFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" afterPath="$PROJECT_DIR$/src/Responses/MultiArticleResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" afterPath="$PROJECT_DIR$/src/Service/DataBaseService/QueryArticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Service/QueryDB.java" afterPath="$PROJECT_DIR$/src/Service/QueryDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/CommonUtils.java" afterPath="$PROJECT_DIR$/src/Utils/CommonUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" afterPath="$PROJECT_DIR$/src/Utils/DataBaseOperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" afterPath="$PROJECT_DIR$/src/Utils/parseMessageUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="$PROJECT_DIR$/src/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j/Log4j.java" afterPath="$PROJECT_DIR$/src/log4j/Log4j.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ArticleManager/ArticleObtain.java" afterPath="$PROJECT_DIR$/src/ArticleAddition/ArticleObtain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ArticleManager/GetArticleList.java" afterPath="$PROJECT_DIR$/src/ArticleAddition/GetArticleList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestPackages/ConcurrentTest.java" afterPath="$PROJECT_DIR$/src/TestPackages/ConcurrentTest.java" />
     </list>
     <ignored path="WeChatPlatform.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -177,8 +34,8 @@
       <file leaf-file-name="ConcurrentTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestPackages/ConcurrentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            <state relative-caret-position="400">
+              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -326,6 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -390,15 +249,9 @@
               <option name="myItemId" value="TestPackages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConcurrentTest.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -984,11 +837,13 @@
       <workItem from="1466919533784" duration="7277000" />
       <workItem from="1466941399627" duration="2793000" />
       <workItem from="1466957134706" duration="7063000" />
+      <workItem from="1467299206208" duration="14000" />
+      <workItem from="1467452428921" duration="2136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205071000" />
+    <option name="totallyTimeSpent" value="207221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1190,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,7 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1214,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1025">
           <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1293,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1301,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1309,7 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,7 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,7 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,9 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,15 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#817#838#0" expanded="false" />
-            <element signature="e#1349#1365#0" expanded="false" />
-            <element signature="e#2665#2666#0" expanded="false" />
-            <element signature="e#2694#2695#0" expanded="false" />
-            <element signature="e#2739#2740#0" expanded="false" />
-            <element signature="e#2768#2769#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1359,7 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,7 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="23" column="163" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="163" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,14 +1235,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestPackages/ConcurrentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        <state relative-caret-position="400">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
