@@ -23,11 +23,12 @@ import java.security.SecureRandom;
 public class CommonUtils {
 
     public final static String tokenURL = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx35cc5c069f5a4b26&secret=6b46aa501df92713726aeed5f85ff70b";
-    //发送https请求
+    //发送https请求，返回jsonObject，与腾讯微信服务器通讯的必备工具
     public static JSONObject httpsRequest(String requestURL,String requestMethod,String outputString){
         JSONObject jsonObject = null;
         Log4j log4j = new Log4j();
         try{
+            //建立sslSocketFactory
             TrustManager[] trustManagers = {new MyX509TrustManager()};
             SSLContext sslContext = SSLContext.getInstance("SSL","SunJSSE");
             sslContext.init(null,trustManagers,new SecureRandom());
@@ -58,7 +59,6 @@ public class CommonUtils {
             bufferedReader.close();
             inputStream.close();
             connection.disconnect();
-            log4j.debuglog("The json string is:"+stringBuffer.toString());
             jsonObject=JSONObject.fromObject(stringBuffer.toString());
         }catch (ConnectException e){
             log4j.infolog("Overtime:"+e.toString());
@@ -72,7 +72,7 @@ public class CommonUtils {
         }
         return jsonObject;
     }
-    //获取接口访问凭证
+    //获取接口访问凭证，有的时候微信服务器需要根据你的appid和appsecret生成token，之后与微信服务器的部分交互需要提供token以验证身份
     public static Token getToken(){
         return getToken(tokenURL);
     }

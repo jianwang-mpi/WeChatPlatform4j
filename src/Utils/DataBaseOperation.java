@@ -11,6 +11,7 @@ import java.util.Map;
 
 /**
  * Created by wangjian on 16-5-20.
+ * 对本地的数据库进行操作，部分代码与DataBaseRemoteOperation重复
  */
 public class DataBaseOperation {
     final static String driverName = "com.mysql.jdbc.Driver"; //驱动名称

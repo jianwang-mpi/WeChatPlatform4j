@@ -8,6 +8,7 @@ import java.util.Map;
 
 /**
  * Created by wangjian on 16-5-26.
+ * 在本地对远程的数据库进行操作
  */
 public class DataBaseRemoteOperation {
     final static String driverName = "com.mysql.jdbc.Driver"; //驱动名称

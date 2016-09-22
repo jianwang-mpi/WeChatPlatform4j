@@ -46,7 +46,7 @@ public class parseMessageUtil {
         }else if(content.equals("q")) {
             queryDB.startQuery(fromUserName);
             TextResponse textResponse = new TextResponse();
-            textResponse.setContent("输入文章标题或日期查询往期文章,回复\"c\"取消查询");
+            textResponse.setContent("输入文章标题或日期(20160623)查询往期文章,回复\"c\"取消查询");
             textResponse.setMsgType(MessageUtil.RESP_MESSAGE_TYPE_TEXT);
             ResponseMessage = textResponse;
         }else{
